@@ -1,0 +1,9 @@
+Building CapriCoin
+
+See doc/readme-qt.rst for instructions on building CapriCoin QT,
+the intended-for-end-users, nice-graphical-interface, reference
+implementation of CapriCoin.
+
+See doc/build-*.txt for instructions on building CapriCoind,
+the intended-for-services, no-graphical-interface, reference
+implementation of CapriCoin.
