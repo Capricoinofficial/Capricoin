@@ -373,7 +373,7 @@ bool GetMyExternalIP(CNetAddr& ipRet)
 
             pszGet = "GET / HTTP/1.1\r\n"
                      "Host: checkip.dyndns.org\r\n"
-                     "User-Agent: CapriCoin\r\n"
+                     "User-Agent: Capricoin\r\n"
                      "Connection: close\r\n"
                      "\r\n";
 
@@ -392,7 +392,7 @@ bool GetMyExternalIP(CNetAddr& ipRet)
 
             pszGet = "GET /simple/ HTTP/1.1\r\n"
                      "Host: www.showmyip.com\r\n"
-                     "User-Agent: CapriCoin\r\n"
+                     "User-Agent: Capricoin\r\n"
                      "Connection: close\r\n"
                      "\r\n";
 
@@ -409,7 +409,7 @@ bool GetMyExternalIP(CNetAddr& ipRet)
 void ThreadGetMyExternalIP(void* parg)
 {
     // Make this thread recognisable as the external IP detection thread
-    RenameThread("CapriCoin-ext-ip");
+    RenameThread("Capricoin-ext-ip");
 
     CNetAddr addrLocalHost;
     if (GetMyExternalIP(addrLocalHost))
@@ -634,7 +634,7 @@ void CNode::copyStats(CNodeStats &stats)
 void ThreadSocketHandler(void* parg)
 {
     // Make this thread recognisable as the networking thread
-    RenameThread("CapriCoin-net");
+    RenameThread("Capricoin-net");
 
     try
     {
@@ -988,7 +988,7 @@ void ThreadSocketHandler2(void* parg)
 void ThreadMapPort(void* parg)
 {
     // Make this thread recognisable as the UPnP thread
-    RenameThread("CapriCoin-UPnP");
+    RenameThread("Capricoin-UPnP");
 
     try
     {
@@ -1049,7 +1049,7 @@ void ThreadMapPort2(void* parg)
             }
         }
 
-        string strDesc = "CapriCoin " + FormatFullVersion();
+        string strDesc = "Capricoin " + FormatFullVersion();
 #ifndef UPNPDISCOVER_SUCCESS
         /* miniupnpc 1.5 */
         r = UPNP_AddPortMapping(urls.controlURL, data.first.servicetype,
@@ -1139,15 +1139,20 @@ void MapPort()
 // The first name is used as information source for addrman.
 // The second name should resolve to a list of seed addresses.
 static const char *strDNSSeed[][2] = {
-    	{"87.98.131.82", "87.98.131.82"},
-    	{"5.196.10.57", "5.196.10.57"},
+    	{"95.85.49.153", "95.85.49.153"},
+    	{"95.85.60.40", "95.85.60.40"},
+    	{"104.172.24.79", "104.172.24.79"},
+    	{"137.135.57.119", "137.135.57.119"},
+    	{"188.165.2.147", "188.165.2.147"},
+    	{"76.14.221.195", "76.14.221.195"},
+    	{"80.244.63.36", "80.244.63.36"},
 	
 };
 
 void ThreadDNSAddressSeed(void* parg)
 {
     // Make this thread recognisable as the DNS seeding thread
-    RenameThread("CapriCoin-dnsseed");
+    RenameThread("Capricoin-dnsseed");
 
     try
     {
@@ -1249,7 +1254,7 @@ void ThreadDumpAddress2(void* parg)
 void ThreadDumpAddress(void* parg)
 {
     // Make this thread recognisable as the address dumping thread
-    RenameThread("CapriCoin-adrdump");
+    RenameThread("Capricoin-adrdump");
 
     try
     {
@@ -1264,7 +1269,7 @@ void ThreadDumpAddress(void* parg)
 void ThreadOpenConnections(void* parg)
 {
     // Make this thread recognisable as the connection opening thread
-    RenameThread("CapriCoin-opencon");
+    RenameThread("Capricoin-opencon");
 
     try
     {
@@ -1445,7 +1450,7 @@ void ThreadOpenConnections2(void* parg)
 void ThreadOpenAddedConnections(void* parg)
 {
     // Make this thread recognisable as the connection opening thread
-    RenameThread("CapriCoin-opencon");
+    RenameThread("Capricoin-opencon");
 
     try
     {
@@ -1576,7 +1581,7 @@ bool OpenNetworkConnection(const CAddress& addrConnect, CSemaphoreGrant *grantOu
 void ThreadMessageHandler(void* parg)
 {
     // Make this thread recognisable as the message handling thread
-    RenameThread("CapriCoin-msghand");
+    RenameThread("Capricoin-msghand");
 
     try
     {
@@ -1744,7 +1749,7 @@ bool BindListenPort(const CService &addrBind, string& strError)
     {
         int nErr = WSAGetLastError();
         if (nErr == WSAEADDRINUSE)
-            strError = strprintf(_("Unable to bind to %s on this computer. CapriCoin is probably already running."), addrBind.ToString().c_str());
+            strError = strprintf(_("Unable to bind to %s on this computer. Capricoin is probably already running."), addrBind.ToString().c_str());
         else
             strError = strprintf(_("Unable to bind to %s on this computer (bind returned error %d, %s)"), addrBind.ToString().c_str(), nErr, strerror(nErr));
         printf("%s\n", strError.c_str());
@@ -1827,7 +1832,7 @@ void static Discover()
 void StartNode(void* parg)
 {
     // Make this thread recognisable as the startup thread
-    RenameThread("CapriCoin-start");
+    RenameThread("Capricoin-start");
 
     if (semOutbound == NULL) {
         // initialize semaphore
