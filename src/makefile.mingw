@@ -124,7 +124,7 @@ OBJS= \
     obj/scrypt-x86.o \
     obj/scrypt-x86_64.o 
 
-all: CapriCoind.exe
+all: Capricoind.exe
 
 LIBS += $(CURDIR)/leveldb/libleveldb.a $(CURDIR)/leveldb/libmemenv.a
 DEFS += $(addprefix -I,$(CURDIR)/leveldb/include)
@@ -161,11 +161,11 @@ obj/%.o: %.cpp
 	      -e '/^$$/ d' -e 's/$$/ :/' < $(@:%.o=%.d) >> $(@:%.o=%.P); \
 	  rm -f $(@:%.o=%.d)
 
-CapriCoind.exe: $(OBJS:obj/%=obj/%)
+Capricoind.exe: $(OBJS:obj/%=obj/%)
 	g++ $(CFLAGS) $(LDFLAGS) -o $@ $(LIBPATHS) $^ $(LIBS)
 
 clean:
-	-del /Q CapriCoind
+	-del /Q Capricoind
 	-del /Q obj\*
 
 FORCE:
