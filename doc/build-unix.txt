@@ -14,10 +14,10 @@ To Build
 --------
 
 cd src/
-make -f makefile.unix            +ACM- Headless CapriCoin
+make -f makefile.unix            +ACM- Headless Capricoin
 
-See readme-qt.rst for instructions on building CapriCoin QT,
-the graphical CapriCoin.
+See readme-qt.rst for instructions on building Capricoin QT,
+the graphical Capricoin.
 
 Dependencies
 ------------
@@ -73,21 +73,21 @@ If using Boost 1.37, append -mt to the boost libraries in the makefile.
 Dependency Build Instructions: Gentoo
 -------------------------------------
 
-Note: If you just want to install CapriCoind on Gentoo, you can add the CapriCoin
+Note: If you just want to install Capricoind on Gentoo, you can add the Capricoin
       overlay and use your package manager:
-          layman -a CapriCoin +ACYAJg- emerge CapriCoind
+          layman -a Capricoin +ACYAJg- emerge Capricoind
 
 emerge -av1 --noreplace boost glib openssl sys-libs/db
 
 Take the following steps to build (no UPnP support):
  cd +ACQAew-BLACKCOIN+AF8-DIR+AH0-/src
  make -f makefile.unix USE+AF8-UPNP+AD0- BDB+AF8-INCLUDE+AF8-PATH+AD0-'/usr/include/db4.8'
- strip CapriCoind
+ strip Capricoind
 
 
 Notes
 -----
-The release is built with GCC and then +ACI-strip CapriCoind+ACI- to strip the debug
+The release is built with GCC and then +ACI-strip Capricoind+ACI- to strip the debug
 symbols, which reduces the executable size by about 90+ACU-.
 
 
@@ -117,7 +117,7 @@ sudo su
 
 Security
 --------
-To help make your CapriCoin installation more secure by making certain attacks impossible to
+To help make your Capricoin installation more secure by making certain attacks impossible to
 exploit even if a vulnerability is found, you can take the following measures:
 
 +ACo- Position Independent Executable
@@ -134,7 +134,7 @@ exploit even if a vulnerability is found, you can take the following measures:
     make -f makefile.unix ... -e PIE+AD0-1
 
     To test that you have built PIE executable, install scanelf, part of paxutils, and use:
-    scanelf -e ./CapriCoin
+    scanelf -e ./Capricoin
 
     The output should contain:
      TYPE
@@ -142,13 +142,13 @@ exploit even if a vulnerability is found, you can take the following measures:
 
 +ACo- Non-executable Stack
     If the stack is executable then trivial stack based buffer overflow exploits are possible if
-    vulnerable buffers are found. By default, CapriCoin should be built with a non-executable stack
+    vulnerable buffers are found. By default, Capricoin should be built with a non-executable stack
     but if one of the libraries it uses asks for an executable stack or someone makes a mistake
     and uses a compiler extension which requires an executable stack, it will silently build an
     executable without the non-executable stack protection.
 
     To verify that the stack is non-executable after compiling use:
-    scanelf -e ./CapriCoin
+    scanelf -e ./Capricoin
 
     the output should contain:
     STK/REL/PTL
