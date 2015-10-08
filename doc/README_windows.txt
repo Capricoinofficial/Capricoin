@@ -1,4 +1,4 @@
-CapriCoin 0.4.4 BETA
+Capricoin 0.4.4 BETA
 
 Copyright (c) 2013 NovaCoin Developers
 Copyright (c) 2011-2013 PPCoin Developers
