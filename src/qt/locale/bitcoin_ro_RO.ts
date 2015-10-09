@@ -3,22 +3,22 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About CapriCoin</source>
-        <translation>Despre CapriCoin</translation>
+        <source>About Capricoin</source>
+        <translation>Despre Capricoin</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;CapriCoin&lt;/b&gt; version</source>
-        <translation>Versiune &lt;b&gt;CapriCoin&lt;/b&gt;</translation>
+        <source>&lt;b&gt;Capricoin&lt;/b&gt; version</source>
+        <translation>Versiune &lt;b&gt;Capricoin&lt;/b&gt;</translation>
     </message>
     <message>
         <location line="+41"/>
         <source>Copyright © 2009-2014 The Bitcoin developers
 Copyright © 2012-2014 The NovaCoin developers
-Copyright © 2014 The CapriCoin developers</source>
+Copyright © 2014 The Capricoin developers</source>
         <translation>Copyright © 2009-2014 The Bitcoin developers
 Copyright © 2012-2014 The NovaCoin developers
-Copyright © 2014 The CapriCoin developers</translation>
+Copyright © 2014 The Capricoin developers</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -65,8 +65,8 @@ Acest produs include programe dezvoltate de către OpenSSL Project pentru a fi f
     </message>
     <message>
         <location line="-46"/>
-        <source>These are your CapriCoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>Acestea sunt adresele CapriCoin pentru a primi plăți. Poate doriți sa dați o adresa noua fiecarui expeditor pentru a putea ține evidența la cine efectuează plăti.</translation>
+        <source>These are your Capricoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>Acestea sunt adresele Capricoin pentru a primi plăți. Poate doriți sa dați o adresa noua fiecarui expeditor pentru a putea ține evidența la cine efectuează plăti.</translation>
     </message>
     <message>
         <location line="+60"/>
@@ -80,8 +80,8 @@ Acest produs include programe dezvoltate de către OpenSSL Project pentru a fi f
     </message>
     <message>
         <location line="+11"/>
-        <source>Sign a message to prove you own a CapriCoin address</source>
-        <translation>Semnează un mesaj pentru a dovedi că dețineti o adresă CapriCoin</translation>
+        <source>Sign a message to prove you own a Capricoin address</source>
+        <translation>Semnează un mesaj pentru a dovedi că dețineti o adresă Capricoin</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -95,8 +95,8 @@ Acest produs include programe dezvoltate de către OpenSSL Project pentru a fi f
     </message>
     <message>
         <location line="-14"/>
-        <source>Verify a message to ensure it was signed with a specified CapriCoin address</source>
-        <translation>Verifică un mesaj pentru a vă asigura că a fost semnat cu o anumită adresă CapriCoin</translation>
+        <source>Verify a message to ensure it was signed with a specified Capricoin address</source>
+        <translation>Verifică un mesaj pentru a vă asigura că a fost semnat cu o anumită adresă Capricoin</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -263,8 +263,8 @@ Acest produs include programe dezvoltate de către OpenSSL Project pentru a fi f
     </message>
     <message>
         <location line="-58"/>
-        <source>CapriCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
-        <translation>CapriCoin se va inchide pentru a termina procesul de encriptie. Amintiți-vă, criptarea portofelul dumneavoastră nu poate proteja pe deplin monedele dvs. de a fi furate de  infectarea cu malware a computerului.</translation>
+        <source>Capricoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
+        <translation>Capricoin se va inchide pentru a termina procesul de encriptie. Amintiți-vă, criptarea portofelul dumneavoastră nu poate proteja pe deplin monedele dvs. de a fi furate de  infectarea cu malware a computerului.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -377,8 +377,8 @@ Acest produs include programe dezvoltate de către OpenSSL Project pentru a fi f
     </message>
     <message>
         <location line="+6"/>
-        <source>Show information about CapriCoin</source>
-        <translation>Arată informații despre CapriCoin</translation>
+        <source>Show information about Capricoin</source>
+        <translation>Arată informații despre Capricoin</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -427,13 +427,13 @@ Acest produs include programe dezvoltate de către OpenSSL Project pentru a fi f
     </message>
     <message>
         <location line="-64"/>
-        <source>Send coins to a CapriCoin address</source>
-        <translation>Trimite monede către o adresă CapriCoin</translation>
+        <source>Send coins to a Capricoin address</source>
+        <translation>Trimite monede către o adresă Capricoin</translation>
     </message>
     <message>
         <location line="+47"/>
-        <source>Modify configuration options for CapriCoin</source>
-        <translation>Modifică opțiuni de configurare pentru CapriCoin</translation>
+        <source>Modify configuration options for Capricoin</source>
+        <translation>Modifică opțiuni de configurare pentru Capricoin</translation>
     </message>
     <message>
         <location line="+18"/>
@@ -472,8 +472,8 @@ Acest produs include programe dezvoltate de către OpenSSL Project pentru a fi f
     </message>
     <message>
         <location line="-202"/>
-        <source>CapriCoin</source>
-        <translation>CapriCoin</translation>
+        <source>Capricoin</source>
+        <translation>Capricoin</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -482,8 +482,8 @@ Acest produs include programe dezvoltate de către OpenSSL Project pentru a fi f
     </message>
     <message>
         <location line="+180"/>
-        <source>&amp;About CapriCoin</source>
-        <translation>Despre CapriCoin</translation>
+        <source>&amp;About Capricoin</source>
+        <translation>Despre Capricoin</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -539,13 +539,13 @@ Acest produs include programe dezvoltate de către OpenSSL Project pentru a fi f
     <message>
         <location line="+0"/>
         <location line="+60"/>
-        <source>CapriCoin client</source>
-        <translation>Clientul CapriCoin</translation>
+        <source>Capricoin client</source>
+        <translation>Clientul Capricoin</translation>
     </message>
     <message numerus="yes">
         <location line="+75"/>
-        <source>%n active connection(s) to CapriCoin network</source>
-        <translation><numerusform>%n conexiune activă la reteaua CapriCoin</numerusform><numerusform>%n conexiuni active la reteaua CapriCoin</numerusform><numerusform>%n conexiuni active la reteaua CapriCoin</numerusform></translation>
+        <source>%n active connection(s) to Capricoin network</source>
+        <translation><numerusform>%n conexiune activă la reteaua Capricoin</numerusform><numerusform>%n conexiuni active la reteaua Capricoin</numerusform><numerusform>%n conexiuni active la reteaua Capricoin</numerusform></translation>
     </message>
     <message>
         <location line="+40"/>
@@ -584,13 +584,13 @@ Acest produs include programe dezvoltate de către OpenSSL Project pentru a fi f
     </message>
     <message>
         <location line="-312"/>
-        <source>About CapriCoin card</source>
-        <translation>Despre cardul CapriCoin</translation>
+        <source>About Capricoin card</source>
+        <translation>Despre cardul Capricoin</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Show information about CapriCoin card</source>
-        <translation>Arată informații despre card CapriCoin</translation>
+        <source>Show information about Capricoin card</source>
+        <translation>Arată informații despre card Capricoin</translation>
     </message>
     <message>
         <location line="+18"/>
@@ -669,8 +669,8 @@ Adresa: %4
     <message>
         <location line="-15"/>
         <location line="+15"/>
-        <source>URI can not be parsed! This can be caused by an invalid CapriCoin address or malformed URI parameters.</source>
-        <translation>URI nu poate fi parsatt! Cauza poate fi o adresa CapriCoin invalidă sau parametrii URI malformați.</translation>
+        <source>URI can not be parsed! This can be caused by an invalid Capricoin address or malformed URI parameters.</source>
+        <translation>URI nu poate fi parsatt! Cauza poate fi o adresa Capricoin invalidă sau parametrii URI malformați.</translation>
     </message>
     <message>
         <location line="+18"/>
@@ -729,8 +729,8 @@ Adresa: %4
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+109"/>
-        <source>A fatal error occurred. CapriCoin can no longer continue safely and will quit.</source>
-        <translation>A apărut o eroare fatală. CapriCoin nu mai poate continua în condiții de siguranță și va iesi.</translation>
+        <source>A fatal error occurred. Capricoin can no longer continue safely and will quit.</source>
+        <translation>A apărut o eroare fatală. Capricoin nu mai poate continua în condiții de siguranță și va iesi.</translation>
     </message>
 </context>
 <context>
@@ -1063,8 +1063,8 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid CapriCoin address.</source>
-        <translation>Adresa introdusă &quot;%1&quot; nu este o adresă CapriCoin validă</translation>
+        <source>The entered address &quot;%1&quot; is not a valid Capricoin address.</source>
+        <translation>Adresa introdusă &quot;%1&quot; nu este o adresă Capricoin validă</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1082,8 +1082,8 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
     <message>
         <location filename="../guiutil.cpp" line="+420"/>
         <location line="+12"/>
-        <source>CapriCoin-Qt</source>
-        <translation>CapriCoin-Qt</translation>
+        <source>Capricoin-Qt</source>
+        <translation>Capricoin-Qt</translation>
     </message>
     <message>
         <location line="-12"/>
@@ -1155,13 +1155,13 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start CapriCoin after logging in to the system.</source>
-        <translation>Pornește CapriCoin imdiat după logarea în sistem</translation>
+        <source>Automatically start Capricoin after logging in to the system.</source>
+        <translation>Pornește Capricoin imdiat după logarea în sistem</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start CapriCoin on system login</source>
-        <translation>$Pornește CapriCoin la logarea în sistem</translation>
+        <source>&amp;Start Capricoin on system login</source>
+        <translation>$Pornește Capricoin la logarea în sistem</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -1180,8 +1180,8 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the CapriCoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Deschide automat portul pentru cientul CapriCoin pe router. Aces lucru este posibil doara daca routerul suporta UPnP si este activat</translation>
+        <source>Automatically open the Capricoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Deschide automat portul pentru cientul Capricoin pe router. Aces lucru este posibil doara daca routerul suporta UPnP si este activat</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1190,8 +1190,8 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Connect to the CapriCoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
-        <translation>Conecteaza la reteaua CapriCoin prinr-un proxy SOCKS(ex. cand te conectezi prin Tor)</translation>
+        <source>Connect to the Capricoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
+        <translation>Conecteaza la reteaua Capricoin prinr-un proxy SOCKS(ex. cand te conectezi prin Tor)</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1265,8 +1265,8 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting CapriCoin.</source>
-        <translation>Limba interfeței utilizator poate fi setat aici. Această setare va avea efect după repornirea CapriCoin.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting Capricoin.</source>
+        <translation>Limba interfeței utilizator poate fi setat aici. Această setare va avea efect după repornirea Capricoin.</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -1280,8 +1280,8 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
     </message>
     <message>
         <location line="+9"/>
-        <source>Whether to show CapriCoin addresses in the transaction list or not.</source>
-        <translation>Dacă să arate adrese CapriCoin din lista de tranzacție sau nu.</translation>
+        <source>Whether to show Capricoin addresses in the transaction list or not.</source>
+        <translation>Dacă să arate adrese Capricoin din lista de tranzacție sau nu.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1327,8 +1327,8 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting CapriCoin.</source>
-        <translation>Aceasta setare va avea efect dupa repornirea CapriCoin.</translation>
+        <source>This setting will take effect after restarting Capricoin.</source>
+        <translation>Aceasta setare va avea efect dupa repornirea Capricoin.</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -1346,8 +1346,8 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
     <message>
         <location line="+33"/>
         <location line="+231"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the CapriCoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>Informatia afisata poate fi depasita.  Portofel se sincronizează automat cu rețeaua CapriCoin după ce se stabilește o conexiune, dar acest proces nu s-a finalizat încă.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Capricoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>Informatia afisata poate fi depasita.  Portofel se sincronizează automat cu rețeaua Capricoin după ce se stabilește o conexiune, dar acest proces nu s-a finalizat încă.</translation>
     </message>
     <message>
         <location line="-160"/>
@@ -1562,8 +1562,8 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the CapriCoin-Qt help message to get a list with possible CapriCoin command-line options.</source>
-        <translation>Afișa mesajul de ajutor CapriCoin-Qt pentru a obține o listă cu posibile opțiuni de linie de comandă CapriCoin.</translation>
+        <source>Show the Capricoin-Qt help message to get a list with possible Capricoin command-line options.</source>
+        <translation>Afișa mesajul de ajutor Capricoin-Qt pentru a obține o listă cu posibile opțiuni de linie de comandă Capricoin.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1582,13 +1582,13 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
     </message>
     <message>
         <location line="-104"/>
-        <source>CapriCoin - Debug window</source>
-        <translation>CapriCoin - fereastră depanare</translation>
+        <source>Capricoin - Debug window</source>
+        <translation>Capricoin - fereastră depanare</translation>
     </message>
     <message>
         <location line="+25"/>
-        <source>CapriCoin Core</source>
-        <translation>CapriCoin Core</translation>
+        <source>Capricoin Core</source>
+        <translation>Capricoin Core</translation>
     </message>
     <message>
         <location line="+279"/>
@@ -1597,8 +1597,8 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the CapriCoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Deschideti fisierul de depanare CapriCoin din folderul curent. Acest lucru poate dura cateva secunde pentru fisiere de log mari.</translation>
+        <source>Open the Capricoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Deschideti fisierul de depanare Capricoin din folderul curent. Acest lucru poate dura cateva secunde pentru fisiere de log mari.</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -1607,8 +1607,8 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="-33"/>
-        <source>Welcome to the CapriCoin RPC console.</source>
-        <translation>Bine ati venit la consola CapriCoin RPC.</translation>
+        <source>Welcome to the Capricoin RPC console.</source>
+        <translation>Bine ati venit la consola Capricoin RPC.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1766,8 +1766,8 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="-173"/>
-        <source>Enter a CapriCoin address (e.g. CapriCoinfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>Introduceți o adresă CapriCoin(ex:CapriCoinfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
+        <source>Enter a Capricoin address (e.g. CapricoinfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
+        <translation>Introduceți o adresă Capricoin(ex:CapricoinfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -1866,8 +1866,8 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
     </message>
     <message>
         <location line="+251"/>
-        <source>WARNING: Invalid CapriCoin address</source>
-        <translation>Atenție: Adresă CapriCoin invalidă</translation>
+        <source>WARNING: Invalid Capricoin address</source>
+        <translation>Atenție: Adresă Capricoin invalidă</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -1910,8 +1910,8 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
     </message>
     <message>
         <location line="+18"/>
-        <source>The address to send the payment to  (e.g. CapriCoinfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>Adresa catre care trimiteti plata(ex. CapriCoinfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
+        <source>The address to send the payment to  (e.g. CapricoinfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
+        <translation>Adresa catre care trimiteti plata(ex. CapricoinfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1940,8 +1940,8 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a CapriCoin address (e.g. CapriCoinfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>Introduceți o adresă CapriCoin(ex:CapriCoinfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
+        <source>Enter a Capricoin address (e.g. CapricoinfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
+        <translation>Introduceți o adresă Capricoin(ex:CapricoinfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
     </message>
 </context>
 <context>
@@ -1964,8 +1964,8 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
     </message>
     <message>
         <location line="+18"/>
-        <source>The address to sign the message with (e.g. CapriCoinfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>Adresa cu care semnati mesajul(ex. CapriCoinfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
+        <source>The address to sign the message with (e.g. CapricoinfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
+        <translation>Adresa cu care semnati mesajul(ex. CapricoinfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -2001,8 +2001,8 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this CapriCoin address</source>
-        <translation>Semnează un mesaj pentru a dovedi că dețineti o adresă CapriCoin</translation>
+        <source>Sign the message to prove you own this Capricoin address</source>
+        <translation>Semnează un mesaj pentru a dovedi că dețineti o adresă Capricoin</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -2028,13 +2028,13 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
     </message>
     <message>
         <location line="+21"/>
-        <source>The address the message was signed with (e.g. CapriCoinfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>Adresa cu care a fost semnat mesajul(ex. CapriCoinfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
+        <source>The address the message was signed with (e.g. CapricoinfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
+        <translation>Adresa cu care a fost semnat mesajul(ex. CapricoinfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified CapriCoin address</source>
-        <translation>Verifică un mesaj pentru a vă asigura că a fost semnat cu o anumită adresă CapriCoin</translation>
+        <source>Verify the message to ensure it was signed with the specified Capricoin address</source>
+        <translation>Verifică un mesaj pentru a vă asigura că a fost semnat cu o anumită adresă Capricoin</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -2044,8 +2044,8 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a CapriCoin address (e.g. CapriCoinfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>Introduceți o adresă CapriCoin(ex:CapriCoinfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
+        <source>Enter a Capricoin address (e.g. CapricoinfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
+        <translation>Introduceți o adresă Capricoin(ex:CapricoinfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -2054,8 +2054,8 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter CapriCoin signature</source>
-        <translation>Introduceti semnatura CapriCoin</translation>
+        <source>Enter Capricoin signature</source>
+        <translation>Introduceti semnatura Capricoin</translation>
     </message>
     <message>
         <location line="+82"/>
@@ -2625,8 +2625,8 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+33"/>
-        <source>CapriCoin version</source>
-        <translation>Versiune CapriCoin</translation>
+        <source>Capricoin version</source>
+        <translation>Versiune Capricoin</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2635,8 +2635,8 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Send command to -server or CapriCoind</source>
-        <translation>Trimite comanda catre server sau CapriCoind</translation>
+        <source>Send command to -server or Capricoind</source>
+        <translation>Trimite comanda catre server sau Capricoind</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2655,13 +2655,13 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Specify configuration file (default: CapriCoin.conf)</source>
-        <translation>Specifica fisier de configurare(implicit: CapriCoin.conf)</translation>
+        <source>Specify configuration file (default: Capricoin.conf)</source>
+        <translation>Specifica fisier de configurare(implicit: Capricoin.conf)</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Specify pid file (default: CapriCoind.pid)</source>
-        <translation>Speficica fisier pid(implicit: CapriCoin.pid)</translation>
+        <source>Specify pid file (default: Capricoind.pid)</source>
+        <translation>Speficica fisier pid(implicit: Capricoin.pid)</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -2810,8 +2810,8 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
     </message>
     <message>
         <location line="+61"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong CapriCoin will not work properly.</source>
-        <translation>Atentie: Va rugam verificati ca timpul si data calculatorului sunt corete. Daca timpul este gresit CapriCoin nu va functiona corect.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Capricoin will not work properly.</source>
+        <translation>Atentie: Va rugam verificati ca timpul si data calculatorului sunt corete. Daca timpul este gresit Capricoin nu va functiona corect.</translation>
     </message>
     <message>
         <location line="-31"/>
@@ -3000,22 +3000,22 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
         <source>%s, you must set a rpcpassword in the configuration file:
  %s
 It is recommended you use the following random password:
-rpcuser=CapriCoinrpc
+rpcuser=Capricoinrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;CapriCoin Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;Capricoin Alert&quot; admin@foo.com
 </source>
         <translation>%s, trebuie să configurați o parolă rpc în fișierul de configurare: %s
-Este recomandat să folosiți următoarea parolă generată aleator: rpcuser=CapriCoinrpc
+Este recomandat să folosiți următoarea parolă generată aleator: rpcuser=Capricoinrpc
 rpcpassword=%s
 (nu trebuie să țineți minte această parolă)
 Username-ul și parola NU TREBUIE să fie aceleași.
 Dacă fișierul nu există, creați-l cu drepturi de citire doar de către deținător.
 Este deasemenea recomandat să setați alertnotify pentru a fi notificat de probleme;
-de exemplu: alertnotify=echo %%s | mail -s &quot;CapriCoin Alert&quot; admin@foo.com
+de exemplu: alertnotify=echo %%s | mail -s &quot;Capricoin Alert&quot; admin@foo.com
 </translation>
     </message>
     <message>
@@ -3140,13 +3140,13 @@ de exemplu: alertnotify=echo %%s | mail -s &quot;CapriCoin Alert&quot; admin@foo
     </message>
     <message>
         <location line="+1"/>
-        <source>Cannot obtain a lock on data directory %s.  CapriCoin is probably already running.</source>
+        <source>Cannot obtain a lock on data directory %s.  Capricoin is probably already running.</source>
         <translation>Nu se poate obtine un lock pe directorul de date &amp;s. Blackoin probabil ruleaza deja.</translation>
     </message>
     <message>
         <location line="-98"/>
-        <source>CapriCoin</source>
-        <translation>CapriCoin</translation>
+        <source>Capricoin</source>
+        <translation>Capricoin</translation>
     </message>
     <message>
         <location line="+140"/>
@@ -3180,13 +3180,13 @@ de exemplu: alertnotify=echo %%s | mail -s &quot;CapriCoin Alert&quot; admin@foo
     </message>
     <message>
         <location line="+4"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of CapriCoin</source>
-        <translation>Eroare la încărcarea wallet.dat: Portofelul necesita o versiune mai noua de CapriCoin</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of Capricoin</source>
+        <translation>Eroare la încărcarea wallet.dat: Portofelul necesita o versiune mai noua de Capricoin</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Wallet needed to be rewritten: restart CapriCoin to complete</source>
-        <translation>A fost nevoie de rescrierea portofelului: restartați CapriCoin pentru a finaliza</translation>
+        <source>Wallet needed to be rewritten: restart Capricoin to complete</source>
+        <translation>A fost nevoie de rescrierea portofelului: restartați Capricoin pentru a finaliza</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -3255,8 +3255,8 @@ de exemplu: alertnotify=echo %%s | mail -s &quot;CapriCoin Alert&quot; admin@foo
     </message>
     <message>
         <location line="+122"/>
-        <source>Unable to bind to %s on this computer. CapriCoin is probably already running.</source>
-        <translation>Imposibil de conectat %s pe acest computer. Cel mai probabil CapriCoin ruleaza</translation>
+        <source>Unable to bind to %s on this computer. Capricoin is probably already running.</source>
+        <translation>Imposibil de conectat %s pe acest computer. Cel mai probabil Capricoin ruleaza</translation>
     </message>
     <message>
         <location line="-97"/>

@@ -49,6 +49,6 @@ make -f makefile.osx
 Run:
   ./Capricoind --help  # for a list of command-line options.
 Run
-  ./Capricoind -daemon # to start the CapriCoin daemon.
+  ./Capricoind -daemon # to start the Capricoin daemon.
 Run
   ./Capricoind help # When the daemon is running, to get a list of RPC commands

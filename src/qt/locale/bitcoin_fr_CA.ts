@@ -3,22 +3,22 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About CapriCoin</source>
-        <translation>Au sujet de CapriCoin</translation>
+        <source>About Capricoin</source>
+        <translation>Au sujet de Capricoin</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;CapriCoin&lt;/b&gt; version</source>
-        <translation>Version de &lt;b&gt;CapriCoin&lt;/b&gt;</translation>
+        <source>&lt;b&gt;Capricoin&lt;/b&gt; version</source>
+        <translation>Version de &lt;b&gt;Capricoin&lt;/b&gt;</translation>
     </message>
     <message>
         <location line="+41"/>
         <source>Copyright © 2009-2014 The Bitcoin developers
 Copyright © 2012-2014 The NovaCoin developers
-Copyright © 2014 The CapriCoin developers</source>
+Copyright © 2014 The Capricoin developers</source>
         <translation>Copyright © 2009-2014 Les développeurs Bitcoin
 Copyright © 2012-2014 Les développeurs NovaCoin
-Copyright © 2014 Les développeurs CapriCoin</translation>
+Copyright © 2014 Les développeurs Capricoin</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -65,7 +65,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-46"/>
-        <source>These are your CapriCoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <source>These are your Capricoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
         <translation>Ce sont vos adresses pour recevoir vos paiements. Vous pouvez utiliser une adresse différente pour chaque réception afin d&apos;identifier facilement le payeur.</translation>
     </message>
     <message>
@@ -80,8 +80,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+11"/>
-        <source>Sign a message to prove you own a CapriCoin address</source>
-        <translation>Signer un message afin de valider l&apos;identité de votre adresse CapriCoin</translation>
+        <source>Sign a message to prove you own a Capricoin address</source>
+        <translation>Signer un message afin de valider l&apos;identité de votre adresse Capricoin</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -95,8 +95,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-14"/>
-        <source>Verify a message to ensure it was signed with a specified CapriCoin address</source>
-        <translation>Vérifier un message pour s&apos;assurer qu&apos;il vient d&apos;un adresse CapriCoin spécifique.</translation>
+        <source>Verify a message to ensure it was signed with a specified Capricoin address</source>
+        <translation>Vérifier un message pour s&apos;assurer qu&apos;il vient d&apos;un adresse Capricoin spécifique.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -237,7 +237,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+1"/>
         <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR COINS&lt;/b&gt;!</source>
-        <translation>ATTENTION : Si vous cryptez votre portefeuille et perdez votre passphrase, vous ne pourrez plus accéder à vos CapriCoins</translation>
+        <translation>ATTENTION : Si vous cryptez votre portefeuille et perdez votre passphrase, vous ne pourrez plus accéder à vos Capricoins</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -263,8 +263,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-58"/>
-        <source>CapriCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
-        <translation>L&apos;application CapriCoin va désormais se terminer afin de finaliser le processus de cryptage. Merci de noter que le cryptage du portefeuille ne garantit pas de se prémunir du vol via l&apos;utilisation de malware, qui auraient pu infecter votre ordinateur. </translation>
+        <source>Capricoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
+        <translation>L&apos;application Capricoin va désormais se terminer afin de finaliser le processus de cryptage. Merci de noter que le cryptage du portefeuille ne garantit pas de se prémunir du vol via l&apos;utilisation de malware, qui auraient pu infecter votre ordinateur. </translation>
     </message>
     <message>
         <location line="+13"/>
@@ -377,8 +377,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+6"/>
-        <source>Show information about CapriCoin</source>
-        <translation>Afficher des informations au sujet du CapriCoin</translation>
+        <source>Show information about Capricoin</source>
+        <translation>Afficher des informations au sujet du Capricoin</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -427,13 +427,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-64"/>
-        <source>Send coins to a CapriCoin address</source>
-        <translation>Envoyer des monnaies vers une adresse CapriCoin</translation>
+        <source>Send coins to a Capricoin address</source>
+        <translation>Envoyer des monnaies vers une adresse Capricoin</translation>
     </message>
     <message>
         <location line="+47"/>
-        <source>Modify configuration options for CapriCoin</source>
-        <translation>Modification des options de configuration de CapriCoin</translation>
+        <source>Modify configuration options for Capricoin</source>
+        <translation>Modification des options de configuration de Capricoin</translation>
     </message>
     <message>
         <location line="+18"/>
@@ -472,8 +472,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-202"/>
-        <source>CapriCoin</source>
-        <translation>CapriCoin</translation>
+        <source>Capricoin</source>
+        <translation>Capricoin</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -482,8 +482,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+180"/>
-        <source>&amp;About CapriCoin</source>
-        <translation>A propos de CapriCoin</translation>
+        <source>&amp;About Capricoin</source>
+        <translation>A propos de Capricoin</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -539,13 +539,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+0"/>
         <location line="+60"/>
-        <source>CapriCoin client</source>
-        <translation>Client CapriCoin</translation>
+        <source>Capricoin client</source>
+        <translation>Client Capricoin</translation>
     </message>
     <message numerus="yes">
         <location line="+75"/>
-        <source>%n active connection(s) to CapriCoin network</source>
-        <translation><numerusform>%n connexion active au réseau CapriCoin</numerusform><numerusform>%n connexions actives au réseau CapriCoin</numerusform></translation>
+        <source>%n active connection(s) to Capricoin network</source>
+        <translation><numerusform>%n connexion active au réseau Capricoin</numerusform><numerusform>%n connexions actives au réseau Capricoin</numerusform></translation>
     </message>
     <message>
         <location line="+40"/>
@@ -584,13 +584,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-312"/>
-        <source>About CapriCoin card</source>
-        <translation>Au sujet de la carte CapriCoin</translation>
+        <source>About Capricoin card</source>
+        <translation>Au sujet de la carte Capricoin</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Show information about CapriCoin card</source>
-        <translation>Informations sur la carte CapriCoin</translation>
+        <source>Show information about Capricoin card</source>
+        <translation>Informations sur la carte Capricoin</translation>
     </message>
     <message>
         <location line="+18"/>
@@ -669,8 +669,8 @@ Adresse : %4
     <message>
         <location line="-15"/>
         <location line="+15"/>
-        <source>URI can not be parsed! This can be caused by an invalid CapriCoin address or malformed URI parameters.</source>
-        <translation>L&apos;adresse du portefeuille CapriCoin n&apos;as pas pu être correctement identifiée, car invalide ou malformée.</translation>
+        <source>URI can not be parsed! This can be caused by an invalid Capricoin address or malformed URI parameters.</source>
+        <translation>L&apos;adresse du portefeuille Capricoin n&apos;as pas pu être correctement identifiée, car invalide ou malformée.</translation>
     </message>
     <message>
         <location line="+18"/>
@@ -729,8 +729,8 @@ Adresse : %4
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+109"/>
-        <source>A fatal error occurred. CapriCoin can no longer continue safely and will quit.</source>
-        <translation>Une erreur fatale a été rencontrée. L&apos;application CapriCoin ne peut plus être s&apos;exécuter de façon correcte et doit se terminer.</translation>
+        <source>A fatal error occurred. Capricoin can no longer continue safely and will quit.</source>
+        <translation>Une erreur fatale a été rencontrée. L&apos;application Capricoin ne peut plus être s&apos;exécuter de façon correcte et doit se terminer.</translation>
     </message>
 </context>
 <context>
@@ -1063,8 +1063,8 @@ Les montants inférieurs à  0.546 fois les frais minimum de relais apparaissent
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid CapriCoin address.</source>
-        <translation>L&apos;adresse &quot;%1&quot; renseignée n&apos;est pas une adresse CapriCoin valide.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid Capricoin address.</source>
+        <translation>L&apos;adresse &quot;%1&quot; renseignée n&apos;est pas une adresse Capricoin valide.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1082,8 +1082,8 @@ Les montants inférieurs à  0.546 fois les frais minimum de relais apparaissent
     <message>
         <location filename="../guiutil.cpp" line="+420"/>
         <location line="+12"/>
-        <source>CapriCoin-Qt</source>
-        <translation>CapriCoin-Qt</translation>
+        <source>Capricoin-Qt</source>
+        <translation>Capricoin-Qt</translation>
     </message>
     <message>
         <location line="-12"/>
@@ -1155,13 +1155,13 @@ Les montants inférieurs à  0.546 fois les frais minimum de relais apparaissent
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start CapriCoin after logging in to the system.</source>
-        <translation>Démarrage automatique du client CapriCoin lors de la connexion au système</translation>
+        <source>Automatically start Capricoin after logging in to the system.</source>
+        <translation>Démarrage automatique du client Capricoin lors de la connexion au système</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start CapriCoin on system login</source>
-        <translation>&amp;Démarrage du client CapriCoin à la connexion au système</translation>
+        <source>&amp;Start Capricoin on system login</source>
+        <translation>&amp;Démarrage du client Capricoin à la connexion au système</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -1180,8 +1180,8 @@ Les montants inférieurs à  0.546 fois les frais minimum de relais apparaissent
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the CapriCoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Ouverture automatique du port client de CapriCoin sur le routeur. Ceci ne fonctionne que dans le cas où le support UPnP sur votre routeur existe et est actif.</translation>
+        <source>Automatically open the Capricoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Ouverture automatique du port client de Capricoin sur le routeur. Ceci ne fonctionne que dans le cas où le support UPnP sur votre routeur existe et est actif.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1190,8 +1190,8 @@ Les montants inférieurs à  0.546 fois les frais minimum de relais apparaissent
     </message>
     <message>
         <location line="+7"/>
-        <source>Connect to the CapriCoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
-        <translation>Connexion au réseau CapriCoin à travers un proxy SOCKS (e.g. Connexion via le réseau Tor).</translation>
+        <source>Connect to the Capricoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
+        <translation>Connexion au réseau Capricoin à travers un proxy SOCKS (e.g. Connexion via le réseau Tor).</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1265,8 +1265,8 @@ Les montants inférieurs à  0.546 fois les frais minimum de relais apparaissent
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting CapriCoin.</source>
-        <translation>La langue d&apos;interface de de l&apos;utilisateur peut être définie ici. Ces modification seront effectives après redémarrage de l&apos;application CapriCoin</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting Capricoin.</source>
+        <translation>La langue d&apos;interface de de l&apos;utilisateur peut être définie ici. Ces modification seront effectives après redémarrage de l&apos;application Capricoin</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -1280,8 +1280,8 @@ Les montants inférieurs à  0.546 fois les frais minimum de relais apparaissent
     </message>
     <message>
         <location line="+9"/>
-        <source>Whether to show CapriCoin addresses in the transaction list or not.</source>
-        <translation>Afficher les adresses CapriCoin au sein de la liste de transactions</translation>
+        <source>Whether to show Capricoin addresses in the transaction list or not.</source>
+        <translation>Afficher les adresses Capricoin au sein de la liste de transactions</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1327,8 +1327,8 @@ Les montants inférieurs à  0.546 fois les frais minimum de relais apparaissent
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting CapriCoin.</source>
-        <translation>Les paramètres prendront effet après redémarrage du client CapriCoin</translation>
+        <source>This setting will take effect after restarting Capricoin.</source>
+        <translation>Les paramètres prendront effet après redémarrage du client Capricoin</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -1346,8 +1346,8 @@ Les montants inférieurs à  0.546 fois les frais minimum de relais apparaissent
     <message>
         <location line="+33"/>
         <location line="+231"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the CapriCoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>Les informations affichées peuvent être obsolètes. Votre portefeuille se synchronise automatiquement avec le réseau CapriCoin mais ce processus n&apos;est pas encore terminé.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Capricoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>Les informations affichées peuvent être obsolètes. Votre portefeuille se synchronise automatiquement avec le réseau Capricoin mais ce processus n&apos;est pas encore terminé.</translation>
     </message>
     <message>
         <location line="-160"/>
@@ -1562,8 +1562,8 @@ Les montants inférieurs à  0.546 fois les frais minimum de relais apparaissent
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the CapriCoin-Qt help message to get a list with possible CapriCoin command-line options.</source>
-        <translation>Afficher le message d&apos;aide CapriCoin-Qt afin d&apos;obtenir la liste des options de de L&apos;outil en ligne de commande CapriCoin</translation>
+        <source>Show the Capricoin-Qt help message to get a list with possible Capricoin command-line options.</source>
+        <translation>Afficher le message d&apos;aide Capricoin-Qt afin d&apos;obtenir la liste des options de de L&apos;outil en ligne de commande Capricoin</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1582,13 +1582,13 @@ Les montants inférieurs à  0.546 fois les frais minimum de relais apparaissent
     </message>
     <message>
         <location line="-104"/>
-        <source>CapriCoin - Debug window</source>
-        <translation>CapriCoin - Fenêtre de déboggage</translation>
+        <source>Capricoin - Debug window</source>
+        <translation>Capricoin - Fenêtre de déboggage</translation>
     </message>
     <message>
         <location line="+25"/>
-        <source>CapriCoin Core</source>
-        <translation>CapriCoin Core</translation>
+        <source>Capricoin Core</source>
+        <translation>Capricoin Core</translation>
     </message>
     <message>
         <location line="+279"/>
@@ -1597,8 +1597,8 @@ Les montants inférieurs à  0.546 fois les frais minimum de relais apparaissent
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the CapriCoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Ouvrir le fichier journal de debug CapriCoin au sein du répertoire courant. Cette opération peut prendre quelques secondes dans le cas de fichiers journaux volumineux.</translation>
+        <source>Open the Capricoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Ouvrir le fichier journal de debug Capricoin au sein du répertoire courant. Cette opération peut prendre quelques secondes dans le cas de fichiers journaux volumineux.</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -1607,8 +1607,8 @@ Les montants inférieurs à  0.546 fois les frais minimum de relais apparaissent
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="-33"/>
-        <source>Welcome to the CapriCoin RPC console.</source>
-        <translation>Bienvenue sur la console CapriCoin RPC.</translation>
+        <source>Welcome to the Capricoin RPC console.</source>
+        <translation>Bienvenue sur la console Capricoin RPC.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1766,8 +1766,8 @@ Les montants inférieurs à  0.546 fois les frais minimum de relais apparaissent
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="-173"/>
-        <source>Enter a CapriCoin address (e.g. CapriCoinfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>Entrer une adresse CapriCoin (e.g. CapriCoinfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
+        <source>Enter a Capricoin address (e.g. CapricoinfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
+        <translation>Entrer une adresse Capricoin (e.g. CapricoinfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -1866,8 +1866,8 @@ Les montants inférieurs à  0.546 fois les frais minimum de relais apparaissent
     </message>
     <message>
         <location line="+251"/>
-        <source>WARNING: Invalid CapriCoin address</source>
-        <translation>AVERTISSEMENT: Adresse CapriCoin Invalide</translation>
+        <source>WARNING: Invalid Capricoin address</source>
+        <translation>AVERTISSEMENT: Adresse Capricoin Invalide</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -1877,7 +1877,7 @@ Les montants inférieurs à  0.546 fois les frais minimum de relais apparaissent
     <message>
         <location line="+4"/>
         <source>WARNING: unknown change address</source>
-        <translation>AVERTISSEMET: Adresse CapriCoin Invalide</translation>
+        <translation>AVERTISSEMET: Adresse Capricoin Invalide</translation>
     </message>
 </context>
 <context>
@@ -1910,8 +1910,8 @@ Les montants inférieurs à  0.546 fois les frais minimum de relais apparaissent
     </message>
     <message>
         <location line="+18"/>
-        <source>The address to send the payment to  (e.g. CapriCoinfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>Adresse destinataire du paiement ( ex : CapriCoinfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
+        <source>The address to send the payment to  (e.g. CapricoinfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
+        <translation>Adresse destinataire du paiement ( ex : CapricoinfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1940,8 +1940,8 @@ Les montants inférieurs à  0.546 fois les frais minimum de relais apparaissent
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a CapriCoin address (e.g. CapriCoinfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>Entrer une adresse CapriCoin (e.g. CapriCoinfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
+        <source>Enter a Capricoin address (e.g. CapricoinfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
+        <translation>Entrer une adresse Capricoin (e.g. CapricoinfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
     </message>
 </context>
 <context>
@@ -1964,8 +1964,8 @@ Les montants inférieurs à  0.546 fois les frais minimum de relais apparaissent
     </message>
     <message>
         <location line="+18"/>
-        <source>The address to sign the message with (e.g. CapriCoinfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>Entrer une adresse CapriCoin (e.g. CapriCoinfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
+        <source>The address to sign the message with (e.g. CapricoinfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
+        <translation>Entrer une adresse Capricoin (e.g. CapricoinfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -2001,8 +2001,8 @@ Les montants inférieurs à  0.546 fois les frais minimum de relais apparaissent
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this CapriCoin address</source>
-        <translation>Signer le message afin de prouver l&apos;identité de votre adresse CapriCoin</translation>
+        <source>Sign the message to prove you own this Capricoin address</source>
+        <translation>Signer le message afin de prouver l&apos;identité de votre adresse Capricoin</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -2028,13 +2028,13 @@ Les montants inférieurs à  0.546 fois les frais minimum de relais apparaissent
     </message>
     <message>
         <location line="+21"/>
-        <source>The address the message was signed with (e.g. CapriCoinfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>L&apos;adresse avec laquelle le message à été signé (ex: CapriCoinfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
+        <source>The address the message was signed with (e.g. CapricoinfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
+        <translation>L&apos;adresse avec laquelle le message à été signé (ex: CapricoinfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified CapriCoin address</source>
-        <translation>Vérifier un message pour s&apos;assurer qu&apos;il vient d&apos;un adresse CapriCoin spécifique.</translation>
+        <source>Verify the message to ensure it was signed with the specified Capricoin address</source>
+        <translation>Vérifier un message pour s&apos;assurer qu&apos;il vient d&apos;un adresse Capricoin spécifique.</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -2044,8 +2044,8 @@ Les montants inférieurs à  0.546 fois les frais minimum de relais apparaissent
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a CapriCoin address (e.g. CapriCoinfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>Entrer une adresse CapriCoin (e.g. CapriCoinfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
+        <source>Enter a Capricoin address (e.g. CapricoinfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
+        <translation>Entrer une adresse Capricoin (e.g. CapricoinfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -2054,8 +2054,8 @@ Les montants inférieurs à  0.546 fois les frais minimum de relais apparaissent
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter CapriCoin signature</source>
-        <translation>Entrer une signature CapriCoin</translation>
+        <source>Enter Capricoin signature</source>
+        <translation>Entrer une signature Capricoin</translation>
     </message>
     <message>
         <location line="+82"/>
@@ -2625,8 +2625,8 @@ Les montants inférieurs à  0.546 fois les frais minimum de relais apparaissent
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+33"/>
-        <source>CapriCoin version</source>
-        <translation>Version CapriCoin</translation>
+        <source>Capricoin version</source>
+        <translation>Version Capricoin</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2635,8 +2635,8 @@ Les montants inférieurs à  0.546 fois les frais minimum de relais apparaissent
     </message>
     <message>
         <location line="+1"/>
-        <source>Send command to -server or CapriCoind</source>
-        <translation>Envoyer commande à -server ou CapriCoind</translation>
+        <source>Send command to -server or Capricoind</source>
+        <translation>Envoyer commande à -server ou Capricoind</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2655,13 +2655,13 @@ Les montants inférieurs à  0.546 fois les frais minimum de relais apparaissent
     </message>
     <message>
         <location line="+2"/>
-        <source>Specify configuration file (default: CapriCoin.conf)</source>
-        <translation>Spécifier le fichier de configuration (defaut: CapriCoin.conf)</translation>
+        <source>Specify configuration file (default: Capricoin.conf)</source>
+        <translation>Spécifier le fichier de configuration (defaut: Capricoin.conf)</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Specify pid file (default: CapriCoind.pid)</source>
-        <translation>Spécifier le fichier pid (defaut: CapriCoind.pid)
+        <source>Specify pid file (default: Capricoind.pid)</source>
+        <translation>Spécifier le fichier pid (defaut: Capricoind.pid)
 </translation>
     </message>
     <message>
@@ -2811,8 +2811,8 @@ Les montants inférieurs à  0.546 fois les frais minimum de relais apparaissent
     </message>
     <message>
         <location line="+61"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong CapriCoin will not work properly.</source>
-        <translation>Avertissement: Veuillez vérifier la date et l&apos;heure de votre ordinateur. CapriCoin ne pourra pas fonctionner correctement si l&apos;horloge est réglée de façon incorrecte</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Capricoin will not work properly.</source>
+        <translation>Avertissement: Veuillez vérifier la date et l&apos;heure de votre ordinateur. Capricoin ne pourra pas fonctionner correctement si l&apos;horloge est réglée de façon incorrecte</translation>
     </message>
     <message>
         <location line="-31"/>
@@ -3001,24 +3001,24 @@ Les montants inférieurs à  0.546 fois les frais minimum de relais apparaissent
         <source>%s, you must set a rpcpassword in the configuration file:
  %s
 It is recommended you use the following random password:
-rpcuser=CapriCoinrpc
+rpcuser=Capricoinrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;CapriCoin Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;Capricoin Alert&quot; admin@foo.com
 </source>
         <translation>%s, vous devez définir un mot de passe rpc &apos;rpcpassword&apos; au sein du fichier de configuration:
  %s
 Il est recommandé d&apos;utiliser le mot de passe aléatoire suivant:
-rpcuser=CapriCoinrpc
+rpcuser=Capricoinrpc
 rpcpassword=%s
 (il n&apos;est pas nécessaire de retenir ce mot de passe)
 Le nom d&apos;utilisateur et le mot de passe doivent IMPERATIVEMENT être différents.
 Si le fichier n&apos;existe pas, il est nécessaire de le créer, avec les droit de lecture au propriétaire seulement.
 Il est également recommandé d&apos;utiliser l&apos;option alertnotify afin d&apos;être notifié des problèmes;
-par exemple: alertnotify=echo %%s | mail -s &quot;Alerte CapriCoin&quot; admin@foo.com
+par exemple: alertnotify=echo %%s | mail -s &quot;Alerte Capricoin&quot; admin@foo.com
 </translation>
     </message>
     <message>
@@ -3143,13 +3143,13 @@ par exemple: alertnotify=echo %%s | mail -s &quot;Alerte CapriCoin&quot; admin@f
     </message>
     <message>
         <location line="+1"/>
-        <source>Cannot obtain a lock on data directory %s.  CapriCoin is probably already running.</source>
-        <translation>Echec lors de la tentative de verrouillage des données du répertoire %s. L&apos;application CapriCoin est probablement déjà en cours d&apos;exécution</translation>
+        <source>Cannot obtain a lock on data directory %s.  Capricoin is probably already running.</source>
+        <translation>Echec lors de la tentative de verrouillage des données du répertoire %s. L&apos;application Capricoin est probablement déjà en cours d&apos;exécution</translation>
     </message>
     <message>
         <location line="-98"/>
-        <source>CapriCoin</source>
-        <translation>CapriCoin</translation>
+        <source>Capricoin</source>
+        <translation>Capricoin</translation>
     </message>
     <message>
         <location line="+140"/>
@@ -3183,13 +3183,13 @@ par exemple: alertnotify=echo %%s | mail -s &quot;Alerte CapriCoin&quot; admin@f
     </message>
     <message>
         <location line="+4"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of CapriCoin</source>
-        <translation>Erreur de chargement du fichier wallet.dat: le portefeuille nécessite une version plus récente de l&apos;application CapriCoin</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of Capricoin</source>
+        <translation>Erreur de chargement du fichier wallet.dat: le portefeuille nécessite une version plus récente de l&apos;application Capricoin</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Wallet needed to be rewritten: restart CapriCoin to complete</source>
-        <translation>le portefeuille nécessite d&apos;être réédité : Merci de relancer l&apos;application CapriCoin</translation>
+        <source>Wallet needed to be rewritten: restart Capricoin to complete</source>
+        <translation>le portefeuille nécessite d&apos;être réédité : Merci de relancer l&apos;application Capricoin</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -3258,8 +3258,8 @@ par exemple: alertnotify=echo %%s | mail -s &quot;Alerte CapriCoin&quot; admin@f
     </message>
     <message>
         <location line="+122"/>
-        <source>Unable to bind to %s on this computer. CapriCoin is probably already running.</source>
-        <translation>Connexion au port %s impossible. L&apos;application CapriCoin est probablement déjà en cours d&apos;exécution</translation>
+        <source>Unable to bind to %s on this computer. Capricoin is probably already running.</source>
+        <translation>Connexion au port %s impossible. L&apos;application Capricoin est probablement déjà en cours d&apos;exécution</translation>
     </message>
     <message>
         <location line="-97"/>

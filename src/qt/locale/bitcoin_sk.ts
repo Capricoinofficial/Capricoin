@@ -3,22 +3,22 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About CapriCoin</source>
-        <translation>O CapriCoin</translation>
+        <source>About Capricoin</source>
+        <translation>O Capricoin</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;CapriCoin&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;CapriCoin&lt;/b&gt; verzia</translation>
+        <source>&lt;b&gt;Capricoin&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;Capricoin&lt;/b&gt; verzia</translation>
     </message>
     <message>
         <location line="+41"/>
         <source>Copyright © 2009-2014 The Bitcoin developers
 Copyright © 2012-2014 The NovaCoin developers
-Copyright © 2014 The CapriCoin developers</source>
+Copyright © 2014 The Capricoin developers</source>
         <translation>Copyright © 2009-2014 The Bitcoin developers
 Copyright © 2012-2014 The NovaCoin developers
-Copyright © 2014 The CapriCoin developers</translation>
+Copyright © 2014 The Capricoin developers</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -65,8 +65,8 @@ Tento produkt obsahuje softvér vyvinutý Projektom OpenSSL Project pre použiti
     </message>
     <message>
         <location line="-46"/>
-        <source>These are your CapriCoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>Toto sú vaše CapriCoin adresy pre príjem platieb. Možno budete chcieť dať inú každému odosielateľovi, takže môžete sledovať, kto Vám platí.</translation>
+        <source>These are your Capricoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>Toto sú vaše Capricoin adresy pre príjem platieb. Možno budete chcieť dať inú každému odosielateľovi, takže môžete sledovať, kto Vám platí.</translation>
     </message>
     <message>
         <location line="+60"/>
@@ -80,8 +80,8 @@ Tento produkt obsahuje softvér vyvinutý Projektom OpenSSL Project pre použiti
     </message>
     <message>
         <location line="+11"/>
-        <source>Sign a message to prove you own a CapriCoin address</source>
-        <translation>Podpísať správu, že vlastníte CapriCoin adresu</translation>
+        <source>Sign a message to prove you own a Capricoin address</source>
+        <translation>Podpísať správu, že vlastníte Capricoin adresu</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -95,8 +95,8 @@ Tento produkt obsahuje softvér vyvinutý Projektom OpenSSL Project pre použiti
     </message>
     <message>
         <location line="-14"/>
-        <source>Verify a message to ensure it was signed with a specified CapriCoin address</source>
-        <translation>Overte správu, aby ste zabezpečili, že bola podpísaná s určitou CapriCoin adresou</translation>
+        <source>Verify a message to ensure it was signed with a specified Capricoin address</source>
+        <translation>Overte správu, aby ste zabezpečili, že bola podpísaná s určitou Capricoin adresou</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -263,8 +263,8 @@ Tento produkt obsahuje softvér vyvinutý Projektom OpenSSL Project pre použiti
     </message>
     <message>
         <location line="-58"/>
-        <source>CapriCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
-        <translation>CapriCoin sa teraz zavrie aby dokončil proces zašifrovania. Nezabudnite, že zašifrovanie vašej peňaženky nemôže plne chrániť vaše mince pred krádežou malwarom napadnutím vašeho počítača.</translation>
+        <source>Capricoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
+        <translation>Capricoin sa teraz zavrie aby dokončil proces zašifrovania. Nezabudnite, že zašifrovanie vašej peňaženky nemôže plne chrániť vaše mince pred krádežou malwarom napadnutím vašeho počítača.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -377,8 +377,8 @@ Tento produkt obsahuje softvér vyvinutý Projektom OpenSSL Project pre použiti
     </message>
     <message>
         <location line="+6"/>
-        <source>Show information about CapriCoin</source>
-        <translation>Zobraziť informácie o CapriCoin</translation>
+        <source>Show information about Capricoin</source>
+        <translation>Zobraziť informácie o Capricoin</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -427,13 +427,13 @@ Tento produkt obsahuje softvér vyvinutý Projektom OpenSSL Project pre použiti
     </message>
     <message>
         <location line="-64"/>
-        <source>Send coins to a CapriCoin address</source>
-        <translation>Poslať mince na CapriCoin adresu</translation>
+        <source>Send coins to a Capricoin address</source>
+        <translation>Poslať mince na Capricoin adresu</translation>
     </message>
     <message>
         <location line="+47"/>
-        <source>Modify configuration options for CapriCoin</source>
-        <translation>Upraviť možnosti konfigurácie pre CapriCoin</translation>
+        <source>Modify configuration options for Capricoin</source>
+        <translation>Upraviť možnosti konfigurácie pre Capricoin</translation>
     </message>
     <message>
         <location line="+18"/>
@@ -472,8 +472,8 @@ Tento produkt obsahuje softvér vyvinutý Projektom OpenSSL Project pre použiti
     </message>
     <message>
         <location line="-202"/>
-        <source>CapriCoin</source>
-        <translation>CapriCoin</translation>
+        <source>Capricoin</source>
+        <translation>Capricoin</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -482,8 +482,8 @@ Tento produkt obsahuje softvér vyvinutý Projektom OpenSSL Project pre použiti
     </message>
     <message>
         <location line="+180"/>
-        <source>&amp;About CapriCoin</source>
-        <translation>&amp;O CapriCoin</translation>
+        <source>&amp;About Capricoin</source>
+        <translation>&amp;O Capricoin</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -539,13 +539,13 @@ Tento produkt obsahuje softvér vyvinutý Projektom OpenSSL Project pre použiti
     <message>
         <location line="+0"/>
         <location line="+60"/>
-        <source>CapriCoin client</source>
-        <translation>CapriCoin client</translation>
+        <source>Capricoin client</source>
+        <translation>Capricoin client</translation>
     </message>
     <message numerus="yes">
         <location line="+75"/>
-        <source>%n active connection(s) to CapriCoin network</source>
-        <translation><numerusform>%n aktívne spojenie s CapriCoin sieťov</numerusform><numerusform>%n aktívnych spojení s CapriCoin sieťov</numerusform><numerusform>%n aktívnych spojení s CapriCoin sieťov</numerusform></translation>
+        <source>%n active connection(s) to Capricoin network</source>
+        <translation><numerusform>%n aktívne spojenie s Capricoin sieťov</numerusform><numerusform>%n aktívnych spojení s Capricoin sieťov</numerusform><numerusform>%n aktívnych spojení s Capricoin sieťov</numerusform></translation>
     </message>
     <message>
         <location line="+40"/>
@@ -584,13 +584,13 @@ Tento produkt obsahuje softvér vyvinutý Projektom OpenSSL Project pre použiti
     </message>
     <message>
         <location line="-312"/>
-        <source>About CapriCoin card</source>
-        <translation>O CapriCoin karte</translation>
+        <source>About Capricoin card</source>
+        <translation>O Capricoin karte</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Show information about CapriCoin card</source>
-        <translation>Zobraziť informácie o CapriCoin karte</translation>
+        <source>Show information about Capricoin card</source>
+        <translation>Zobraziť informácie o Capricoin karte</translation>
     </message>
     <message>
         <location line="+18"/>
@@ -668,8 +668,8 @@ Adresa: %4</translation>
     <message>
         <location line="-15"/>
         <location line="+15"/>
-        <source>URI can not be parsed! This can be caused by an invalid CapriCoin address or malformed URI parameters.</source>
-        <translation>URI nemožno analyzovať! To môže byť spôsobené neplatnou CapriCoin adresu alebo chybnými URI parametrami.</translation>
+        <source>URI can not be parsed! This can be caused by an invalid Capricoin address or malformed URI parameters.</source>
+        <translation>URI nemožno analyzovať! To môže byť spôsobené neplatnou Capricoin adresu alebo chybnými URI parametrami.</translation>
     </message>
     <message>
         <location line="+18"/>
@@ -728,8 +728,8 @@ Adresa: %4</translation>
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+109"/>
-        <source>A fatal error occurred. CapriCoin can no longer continue safely and will quit.</source>
-        <translation>Došlo k závažnej chybe. CapriCoin už nemôže pokračovať bezpečne a bude ukončený.</translation>
+        <source>A fatal error occurred. Capricoin can no longer continue safely and will quit.</source>
+        <translation>Došlo k závažnej chybe. Capricoin už nemôže pokračovať bezpečne a bude ukončený.</translation>
     </message>
 </context>
 <context>
@@ -1062,8 +1062,8 @@ Sumy nižšie ako 0,546 násobok minimálneho poplatku sú zobrazené ako DUST.<
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid CapriCoin address.</source>
-        <translation>Zadaná adresa &quot;%1&quot; nie je platnou CapriCoin adresou.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid Capricoin address.</source>
+        <translation>Zadaná adresa &quot;%1&quot; nie je platnou Capricoin adresou.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1081,8 +1081,8 @@ Sumy nižšie ako 0,546 násobok minimálneho poplatku sú zobrazené ako DUST.<
     <message>
         <location filename="../guiutil.cpp" line="+420"/>
         <location line="+12"/>
-        <source>CapriCoin-Qt</source>
-        <translation>CapriCoin-Qt</translation>
+        <source>Capricoin-Qt</source>
+        <translation>Capricoin-Qt</translation>
     </message>
     <message>
         <location line="-12"/>
@@ -1154,13 +1154,13 @@ Sumy nižšie ako 0,546 násobok minimálneho poplatku sú zobrazené ako DUST.<
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start CapriCoin after logging in to the system.</source>
-        <translation>Automaticky spustiť CapriCoin po prihlásení sa do systému.</translation>
+        <source>Automatically start Capricoin after logging in to the system.</source>
+        <translation>Automaticky spustiť Capricoin po prihlásení sa do systému.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start CapriCoin on system login</source>
-        <translation>&amp;Spustiť CapriCoin pri prihlásení do systému</translation>
+        <source>&amp;Start Capricoin on system login</source>
+        <translation>&amp;Spustiť Capricoin pri prihlásení do systému</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -1179,8 +1179,8 @@ Sumy nižšie ako 0,546 násobok minimálneho poplatku sú zobrazené ako DUST.<
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the CapriCoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Automaticky otvoriť port klienta CapriCoin na routeri. To funguje iba vtedy, ak váš router podporuje UPnP a je povolené.</translation>
+        <source>Automatically open the Capricoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Automaticky otvoriť port klienta Capricoin na routeri. To funguje iba vtedy, ak váš router podporuje UPnP a je povolené.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1189,8 +1189,8 @@ Sumy nižšie ako 0,546 násobok minimálneho poplatku sú zobrazené ako DUST.<
     </message>
     <message>
         <location line="+7"/>
-        <source>Connect to the CapriCoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
-        <translation>Pripojenie k sieti CapriCoin cez SOCKS proxy server (napr. pri pripojení cez Tor).</translation>
+        <source>Connect to the Capricoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
+        <translation>Pripojenie k sieti Capricoin cez SOCKS proxy server (napr. pri pripojení cez Tor).</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1264,8 +1264,8 @@ Sumy nižšie ako 0,546 násobok minimálneho poplatku sú zobrazené ako DUST.<
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting CapriCoin.</source>
-        <translation>Jazyk používateľského rozhrania je možné tu nastaviť. Toto nastavenie sa prejaví až po reštartovaní CapriCoin.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting Capricoin.</source>
+        <translation>Jazyk používateľského rozhrania je možné tu nastaviť. Toto nastavenie sa prejaví až po reštartovaní Capricoin.</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -1279,8 +1279,8 @@ Sumy nižšie ako 0,546 násobok minimálneho poplatku sú zobrazené ako DUST.<
     </message>
     <message>
         <location line="+9"/>
-        <source>Whether to show CapriCoin addresses in the transaction list or not.</source>
-        <translation>Či chcete zobraziť CapriCoin adresy v zozname transakcií alebo nie.</translation>
+        <source>Whether to show Capricoin addresses in the transaction list or not.</source>
+        <translation>Či chcete zobraziť Capricoin adresy v zozname transakcií alebo nie.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1326,8 +1326,8 @@ Sumy nižšie ako 0,546 násobok minimálneho poplatku sú zobrazené ako DUST.<
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting CapriCoin.</source>
-        <translation>Toto nastavenie sa prejaví až po reštartovaní CapriCoin.</translation>
+        <source>This setting will take effect after restarting Capricoin.</source>
+        <translation>Toto nastavenie sa prejaví až po reštartovaní Capricoin.</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -1345,8 +1345,8 @@ Sumy nižšie ako 0,546 násobok minimálneho poplatku sú zobrazené ako DUST.<
     <message>
         <location line="+33"/>
         <location line="+231"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the CapriCoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>Zobrazené informácie môžu byť zastaralé. Vaša peňaženka sa automaticky synchronizuje so sieťou CapriCoin po nadviazaní spojenia, ale tento proces nie je ešte dokončený.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Capricoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>Zobrazené informácie môžu byť zastaralé. Vaša peňaženka sa automaticky synchronizuje so sieťou Capricoin po nadviazaní spojenia, ale tento proces nie je ešte dokončený.</translation>
     </message>
     <message>
         <location line="-160"/>
@@ -1561,8 +1561,8 @@ Sumy nižšie ako 0,546 násobok minimálneho poplatku sú zobrazené ako DUST.<
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the CapriCoin-Qt help message to get a list with possible CapriCoin command-line options.</source>
-        <translation>Zobraziť CapriCoin-Qt nápovedu k získaniu zoznamu pre možnosti CapriCoin príkazového riadku.</translation>
+        <source>Show the Capricoin-Qt help message to get a list with possible Capricoin command-line options.</source>
+        <translation>Zobraziť Capricoin-Qt nápovedu k získaniu zoznamu pre možnosti Capricoin príkazového riadku.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1581,13 +1581,13 @@ Sumy nižšie ako 0,546 násobok minimálneho poplatku sú zobrazené ako DUST.<
     </message>
     <message>
         <location line="-104"/>
-        <source>CapriCoin - Debug window</source>
-        <translation>CapriCoin - Ladiace okno</translation>
+        <source>Capricoin - Debug window</source>
+        <translation>Capricoin - Ladiace okno</translation>
     </message>
     <message>
         <location line="+25"/>
-        <source>CapriCoin Core</source>
-        <translation>CapriCoin Core</translation>
+        <source>Capricoin Core</source>
+        <translation>Capricoin Core</translation>
     </message>
     <message>
         <location line="+279"/>
@@ -1596,8 +1596,8 @@ Sumy nižšie ako 0,546 násobok minimálneho poplatku sú zobrazené ako DUST.<
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the CapriCoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Otvorte CapriCoin ladenie log súbor z aktuálneho adresára dát. To môže trvať niekoľko sekúnd pre veľké súbory protokolu.</translation>
+        <source>Open the Capricoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Otvorte Capricoin ladenie log súbor z aktuálneho adresára dát. To môže trvať niekoľko sekúnd pre veľké súbory protokolu.</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -1606,8 +1606,8 @@ Sumy nižšie ako 0,546 násobok minimálneho poplatku sú zobrazené ako DUST.<
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="-33"/>
-        <source>Welcome to the CapriCoin RPC console.</source>
-        <translation>Vitajte v CapriCoin RPC konzole.</translation>
+        <source>Welcome to the Capricoin RPC console.</source>
+        <translation>Vitajte v Capricoin RPC konzole.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1765,8 +1765,8 @@ Sumy nižšie ako 0,546 násobok minimálneho poplatku sú zobrazené ako DUST.<
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="-173"/>
-        <source>Enter a CapriCoin address (e.g. CapriCoinfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>Zadajte CapriCoin adresu (napr. CapriCoinfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
+        <source>Enter a Capricoin address (e.g. CapricoinfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
+        <translation>Zadajte Capricoin adresu (napr. CapricoinfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -1865,8 +1865,8 @@ Sumy nižšie ako 0,546 násobok minimálneho poplatku sú zobrazené ako DUST.<
     </message>
     <message>
         <location line="+251"/>
-        <source>WARNING: Invalid CapriCoin address</source>
-        <translation>VAROVANIE: Neplatná CapriCoin adresa</translation>
+        <source>WARNING: Invalid Capricoin address</source>
+        <translation>VAROVANIE: Neplatná Capricoin adresa</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -1909,8 +1909,8 @@ Sumy nižšie ako 0,546 násobok minimálneho poplatku sú zobrazené ako DUST.<
     </message>
     <message>
         <location line="+18"/>
-        <source>The address to send the payment to  (e.g. CapriCoinfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>Adresa pre poslanie platby (napr. CapriCoinfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
+        <source>The address to send the payment to  (e.g. CapricoinfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
+        <translation>Adresa pre poslanie platby (napr. CapricoinfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1939,8 +1939,8 @@ Sumy nižšie ako 0,546 násobok minimálneho poplatku sú zobrazené ako DUST.<
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a CapriCoin address (e.g. CapriCoinfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>Zadaj a CapriCoin addresu (napr. CapriCoinfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
+        <source>Enter a Capricoin address (e.g. CapricoinfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
+        <translation>Zadaj a Capricoin addresu (napr. CapricoinfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
     </message>
 </context>
 <context>
@@ -1963,8 +1963,8 @@ Sumy nižšie ako 0,546 násobok minimálneho poplatku sú zobrazené ako DUST.<
     </message>
     <message>
         <location line="+18"/>
-        <source>The address to sign the message with (e.g. CapriCoinfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>Adresa na podpísanie správy (napr. CapriCoinfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
+        <source>The address to sign the message with (e.g. CapricoinfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
+        <translation>Adresa na podpísanie správy (napr. CapricoinfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -2000,8 +2000,8 @@ Sumy nižšie ako 0,546 násobok minimálneho poplatku sú zobrazené ako DUST.<
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this CapriCoin address</source>
-        <translation>Podpísať správu ako dôkaz, že vlastníte túto CapriCoin adresu</translation>
+        <source>Sign the message to prove you own this Capricoin address</source>
+        <translation>Podpísať správu ako dôkaz, že vlastníte túto Capricoin adresu</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -2027,13 +2027,13 @@ Sumy nižšie ako 0,546 násobok minimálneho poplatku sú zobrazené ako DUST.<
     </message>
     <message>
         <location line="+21"/>
-        <source>The address the message was signed with (e.g. CapriCoinfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>Adresa správy bola podpísaná (napr. CapriCoinfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
+        <source>The address the message was signed with (e.g. CapricoinfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
+        <translation>Adresa správy bola podpísaná (napr. CapricoinfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified CapriCoin address</source>
-        <translation>Overte správu, aby zabezpečilo, že bola podpísaná s danou CapriCoin adresu</translation>
+        <source>Verify the message to ensure it was signed with the specified Capricoin address</source>
+        <translation>Overte správu, aby zabezpečilo, že bola podpísaná s danou Capricoin adresu</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -2043,8 +2043,8 @@ Sumy nižšie ako 0,546 násobok minimálneho poplatku sú zobrazené ako DUST.<
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a CapriCoin address (e.g. CapriCoinfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>Zadajte CapriCoin adresu (napr. CapriCoinfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
+        <source>Enter a Capricoin address (e.g. CapricoinfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
+        <translation>Zadajte Capricoin adresu (napr. CapricoinfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -2053,8 +2053,8 @@ Sumy nižšie ako 0,546 násobok minimálneho poplatku sú zobrazené ako DUST.<
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter CapriCoin signature</source>
-        <translation>Zadajte CapriCoin podpis</translation>
+        <source>Enter Capricoin signature</source>
+        <translation>Zadajte Capricoin podpis</translation>
     </message>
     <message>
         <location line="+82"/>
@@ -2624,8 +2624,8 @@ Sumy nižšie ako 0,546 násobok minimálneho poplatku sú zobrazené ako DUST.<
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+33"/>
-        <source>CapriCoin version</source>
-        <translation>CapriCoin verzia</translation>
+        <source>Capricoin version</source>
+        <translation>Capricoin verzia</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2634,8 +2634,8 @@ Sumy nižšie ako 0,546 násobok minimálneho poplatku sú zobrazené ako DUST.<
     </message>
     <message>
         <location line="+1"/>
-        <source>Send command to -server or CapriCoind</source>
-        <translation>Pošli príkaz na -server alebo CapriCoind</translation>
+        <source>Send command to -server or Capricoind</source>
+        <translation>Pošli príkaz na -server alebo Capricoind</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2654,13 +2654,13 @@ Sumy nižšie ako 0,546 násobok minimálneho poplatku sú zobrazené ako DUST.<
     </message>
     <message>
         <location line="+2"/>
-        <source>Specify configuration file (default: CapriCoin.conf)</source>
-        <translation>Zadajte konfiguračný súbor (predvolené: CapriCoin.conf)</translation>
+        <source>Specify configuration file (default: Capricoin.conf)</source>
+        <translation>Zadajte konfiguračný súbor (predvolené: Capricoin.conf)</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Specify pid file (default: CapriCoind.pid)</source>
-        <translation>Zadajte pid súbor (predvolené: CapriCoind.pid)</translation>
+        <source>Specify pid file (default: Capricoind.pid)</source>
+        <translation>Zadajte pid súbor (predvolené: Capricoind.pid)</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -2809,8 +2809,8 @@ Sumy nižšie ako 0,546 násobok minimálneho poplatku sú zobrazené ako DUST.<
     </message>
     <message>
         <location line="+61"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong CapriCoin will not work properly.</source>
-        <translation>Upozornenie: Skontrolujte, že dátum a čas počítača sú správne! Ak je Váš čas nesprávny CapriCoin nebude pracovať správne.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Capricoin will not work properly.</source>
+        <translation>Upozornenie: Skontrolujte, že dátum a čas počítača sú správne! Ak je Váš čas nesprávny Capricoin nebude pracovať správne.</translation>
     </message>
     <message>
         <location line="-31"/>
@@ -2999,24 +2999,24 @@ Sumy nižšie ako 0,546 násobok minimálneho poplatku sú zobrazené ako DUST.<
         <source>%s, you must set a rpcpassword in the configuration file:
  %s
 It is recommended you use the following random password:
-rpcuser=CapriCoinrpc
+rpcuser=Capricoinrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;CapriCoin Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;Capricoin Alert&quot; admin@foo.com
 </source>
         <translation>%s, musíte nastaviť rpcpassword v konfiguračnom súbore:
  %s
 Je odporúčané použiť nasledujúce náhodné heslo:
-rpcuser=CapriCoinrpc
+rpcuser=Capricoinrpc
 rpcpassword=%s
 (Nemusíte si pamätať toto heslo)
 Užívateľské meno a heslo nesmú byť rovnaké. 
 Ak súbor neexistuje, vytvorte ho s oprávneniami súborov vlastníkov iba na čítatanie.
 Odporúča sa tiež nastaviť alertnotify, takže budete upozornení na problémy;
-napríklad: alertnotify=echo %%s | mail -s &quot;CapriCoin Alert&quot; admin@foo.com</translation>
+napríklad: alertnotify=echo %%s | mail -s &quot;Capricoin Alert&quot; admin@foo.com</translation>
     </message>
     <message>
         <location line="+51"/>
@@ -3140,13 +3140,13 @@ napríklad: alertnotify=echo %%s | mail -s &quot;CapriCoin Alert&quot; admin@foo
     </message>
     <message>
         <location line="+1"/>
-        <source>Cannot obtain a lock on data directory %s.  CapriCoin is probably already running.</source>
-        <translation>Nemožno získať zámok na dátový adresár %s. CapriCoin už pravdepodobne beží.</translation>
+        <source>Cannot obtain a lock on data directory %s.  Capricoin is probably already running.</source>
+        <translation>Nemožno získať zámok na dátový adresár %s. Capricoin už pravdepodobne beží.</translation>
     </message>
     <message>
         <location line="-98"/>
-        <source>CapriCoin</source>
-        <translation>CapriCoin</translation>
+        <source>Capricoin</source>
+        <translation>Capricoin</translation>
     </message>
     <message>
         <location line="+140"/>
@@ -3180,13 +3180,13 @@ napríklad: alertnotify=echo %%s | mail -s &quot;CapriCoin Alert&quot; admin@foo
     </message>
     <message>
         <location line="+4"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of CapriCoin</source>
-        <translation>Chyba pri načítaní wallet.dat: Peňaženka vyžaduje novšiu verziu CapriCoin</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of Capricoin</source>
+        <translation>Chyba pri načítaní wallet.dat: Peňaženka vyžaduje novšiu verziu Capricoin</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Wallet needed to be rewritten: restart CapriCoin to complete</source>
-        <translation>Peňaženka potrebuje byť prepísaná: reštartujte CapriCoin k dokončeniu</translation>
+        <source>Wallet needed to be rewritten: restart Capricoin to complete</source>
+        <translation>Peňaženka potrebuje byť prepísaná: reštartujte Capricoin k dokončeniu</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -3255,8 +3255,8 @@ napríklad: alertnotify=echo %%s | mail -s &quot;CapriCoin Alert&quot; admin@foo
     </message>
     <message>
         <location line="+122"/>
-        <source>Unable to bind to %s on this computer. CapriCoin is probably already running.</source>
-        <translation>Nemôžem sa pripojiť na %s na tomto počítači. CapriCoin je pravdepodobne už beží.</translation>
+        <source>Unable to bind to %s on this computer. Capricoin is probably already running.</source>
+        <translation>Nemôžem sa pripojiť na %s na tomto počítači. Capricoin je pravdepodobne už beží.</translation>
     </message>
     <message>
         <location line="-97"/>
