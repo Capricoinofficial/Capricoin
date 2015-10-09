@@ -1,8 +1,8 @@
 #ifndef QTIPCSERVER_H
 #define QTIPCSERVER_H
 
-// Define CapriCoin-Qt message queue name
-#define BITCOINURI_QUEUE_NAME "CapriCoinURI"
+// Define Capricoin-Qt message queue name
+#define BITCOINURI_QUEUE_NAME "CapricoinURI"
 
 void ipcScanRelay(int argc, char *argv[]);
 void ipcInit(int argc, char *argv[]);
