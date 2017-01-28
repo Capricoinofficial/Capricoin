@@ -1310,13 +1310,17 @@ Value gettransaction(const Array& params, bool fHelp)
                 entry.push_back(Pair("blockhash", hashBlock.GetHex()));
                 map<uint256, CBlockIndex*>::iterator mi = mapBlockIndex.find(hashBlock);
                 if (mi != mapBlockIndex.end() && (*mi).second)
-                {
-                    CBlockIndex* pindex = (*mi).second;
-                    if (pindex->IsInMainChain())
-                        entry.push_back(Pair("confirmations", 1 + nBestHeight - pindex->nHeight));
-                    else
-                        entry.push_back(Pair("confirmations", 0));
-                }
+				{
+					CBlockIndex* pindex = (*mi).second;
+					if (pindex->IsInMainChain())
+ 					{	
+						entry.push_back(Pair("confirmations", 1 + nBestHeight - pindex->nHeight));
+						entry.push_back(Pair("txntime", (boost::int64_t)tx.nTime));
+						entry.push_back(Pair("time", (boost::int64_t)pindex->nTime));
+ 					}
+					else
+						entry.push_back(Pair("confirmations", 0));
+				}
             }
         }
         else

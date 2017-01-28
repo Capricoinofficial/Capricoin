@@ -258,9 +258,6 @@
        <property name="text">
         <string/>
        </property>
-       <property name="pixmap">
-        <pixmap resource="../bitcoin.qrc">:/icons/drmbg</pixmap>
-       </property>
        <property name="scaledContents">
         <bool>false</bool>
        </property>
