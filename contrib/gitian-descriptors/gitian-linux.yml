@@ -1,0 +1,109 @@
+---
+name: "Capricoin"
+suites:
+- "trusty"
+architectures:
+- "i386"
+- "amd64"
+packages: 
+- "build-essential"
+- "qt4-qmake"
+- "libqt4-dev"
+- "libminiupnpc-dev"
+- "libboost-all-dev"
+- "libpng12-dev"
+- "git-core"
+- "pkg-config"
+- "libtool"
+- "automake"
+- "faketime"
+- "bsdmainutils"
+reference_datetime: "2017-05-03 00:00:00"
+remotes:
+- "url": "https://github.com/Capricoinofficial/capricoin.git"
+  "dir": "Capricoin"
+files:
+- "openssl-1.0.2k.tar.gz"
+- "db-4.8.30.NC.tar.gz"
+- "boost_1_55_0.tar.bz2"
+- "qrencode-3.4.3.tar.gz"
+script: |
+  # Integrity Check
+   echo "6b3977c61f2aedf0f96367dcfb5c6e578cf37e7b8d913b4ecb6643c3cb88d8c0  openssl-1.0.2k.tar.gz"         | sha256sum -c
+   echo "12edc0df75bf9abd7f82f821795bcee50f42cb2e5f76a6a281b85732798364ef  db-4.8.30.NC.tar.gz"           | sha256sum -c
+   echo "fff00023dd79486d444c8e29922f4072e1d451fc5a4d2b6075852ead7f2b7b52  boost_1_55_0.tar.bz2"          | sha256sum -c
+   echo "18c4af0e99a622901210d8e8a174e7c8e77911f2accee9c8b7d074b5d00d47c8  qrencode-3.4.3.tar.gz"         | sha256sum -c
+  STAGING="$HOME/install"
+  OPTFLAGS='-O2'
+  BINDIR="${OUTDIR}/bin/${GBUILD_BITS}" # 32/64 bit build specific output directory
+  TEMPDIR="$HOME/tempdir"
+  if [ "$GBUILD_BITS" == "32" ]; then
+    export LD_PRELOAD=/usr/lib/i386-linux-gnu/faketime/libfaketime.so.1;
+  else
+    export LD_PRELOAD=/usr/lib/x86_64-linux-gnu/faketime/libfaketime.so.1;
+  fi
+  export FAKETIME=$REFERENCE_DATETIME
+  export TZ=UTC
+  export LIBRARY_PATH="$STAGING/lib"
+  mkdir -p ${BINDIR}
+  #
+  #
+  tar xzf openssl-1.0.2k.tar.gz
+  cd openssl-1.0.2k
+  #   need -fPIC to avoid relocation error in 64 bit builds
+  ./config no-shared no-zlib no-dso no-krb5 --openssldir=$STAGING -fPIC
+  #   need to build OpenSSL with faketime because a timestamp is embedded into cversion.o
+  make
+  make install_sw
+  cd ..
+  #
+  tar xzf qrencode-3.4.3.tar.gz
+  cd qrencode-3.4.3
+  unset FAKETIME # unset fake time during configure, as it does some clock sanity tests
+  #   need --with-pic to avoid relocation error in 64 bit builds
+  ./configure --prefix=$STAGING --enable-static --disable-shared --with-pic --without-tools --disable-dependency-tracking
+  # Workaround to prevent re-configuring by make; make all files have a date in the past
+  find . -print0 | xargs -r0 touch -t 200001010000
+  export FAKETIME=$REFERENCE_DATETIME
+  make $MAKEOPTS install
+  cd ..
+  #
+  #Boost
+  # tar --warning=no-timestamp -xjf boost_1_55_0.tar.bz2
+  # cd boost_1_55_0
+  # GCCVERSION=$(g++ -E -dM $(mktemp --suffix=.h) | grep __VERSION__ | cut -d ' ' -f 3 | cut -d '"' -f 2)
+  # # note: bjam with -d+2 reveals that -O3 is implied by default, no need to provide it in cxxflags
+  # echo "using gcc : $GCCVERSION : g++
+        # :
+        # <cxxflags>\"-frandom-seed=boost1 -fPIC\"
+  # ;" > user-config.jam
+  # ./bootstrap.sh --without-icu
+  # ./bjam toolset=gcc threadapi=pthread threading=multi variant=release link=static runtime-link=shared --user-config=user-config.jam --without-mpi --without-python -sNO_BZIP2=1 --layout=tagged --build-type=complete --prefix="$STAGING" $MAKEOPTS -d+2 install
+  # cd ..
+  #
+  tar xzf db-4.8.30.NC.tar.gz
+  cd db-4.8.30.NC/build_unix
+  #   need --with-pic to avoid relocation error in 64 bit builds
+  ../dist/configure --prefix=$STAGING --enable-cxx --disable-shared --with-pic
+  # Workaround to prevent re-configuring by make; make all files have a date in the past
+  find . -print0 | xargs -r0 touch -t 200001010000
+  make $MAKEOPTS library_build
+  make install_lib install_include
+  cd ../..
+  
+  #
+  cd Capricoin
+  mkdir -p $OUTDIR/src
+  git archive HEAD | tar -x -C $OUTDIR/src
+  cp $OUTDIR/src/doc/README $OUTDIR
+  cp $OUTDIR/src/COPYING $OUTDIR
+  cd src
+  chmod +x leveldb/build_detect_platform
+  make -f makefile.unix STATIC=1 OPENSSL_INCLUDE_PATH="$STAGING/include" OPENSSL_LIB_PATH="$STAGING/lib" $MAKEOPTS Capricoind USE_UPNP=1 USE_IPV6=1 DEBUGFLAGS= 
+  mkdir -p $STAGING/bin/$GBUILD_BITS
+  install -s Capricoind $OUTDIR/bin/$GBUILD_BITS
+  cd ..
+  #
+  qmake INCLUDEPATH="$STAGING/include" LIBS="-L$STAGING/lib" RELEASE=1 USE_IPV6=1 USE_UPNP=1 USE_QRCODE=1
+  make $MAKEOPTS
+  install Capricoin-qt $OUTDIR/bin/$GBUILD_BITS
