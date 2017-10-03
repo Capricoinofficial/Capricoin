@@ -19,7 +19,7 @@ packages:
 - "bsdmainutils"
 - "python"
 - "genisoimage"
-reference_datetime: "2017-05-03 00:00:00"
+reference_datetime: "2017-10-03 00:00:00"
 remotes:
 - "url": "https://github.com/Capricoinofficial/Capricoin.git"
   "dir": "Capricoin"
