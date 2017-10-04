@@ -98,7 +98,7 @@ script: |
   cp $OUTDIR/src/doc/README $OUTDIR
   cp $OUTDIR/src/COPYING $OUTDIR
   cd src
-  chmod +x leveldb/build_detect_platform
+  #chmod +x leveldb/build_detect_platform
   make -f makefile.unix STATIC=1 OPENSSL_INCLUDE_PATH="$STAGING/include" OPENSSL_LIB_PATH="$STAGING/lib" $MAKEOPTS Capricoind USE_UPNP=1 USE_IPV6=1 DEBUGFLAGS= 
   mkdir -p $STAGING/bin/$GBUILD_BITS
   install -s Capricoind $OUTDIR/bin/$GBUILD_BITS

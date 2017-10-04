@@ -75,7 +75,7 @@ script: |
     cp $OUTDIR/src/COPYING $OUTDIR/COPYING.txt
     
     #
-    chmod +x src/leveldb/build_detect_platform
+    #chmod +x src/leveldb/build_detect_platform
     # cd src
     # make -f makefile.linux-mingw HOST="$HOST" DEPSDIR="$DEPSDIR" CURDIR="$BUILDDIR/Capricoin/src" STATIC=1 $MAKEOPTS USE_UPNP=- BOOST_LIB_SUFFIX="-mt-s" DEBUGFLAGS=
     # cp Capricoind.exe $BINDIR/

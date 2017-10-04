@@ -70,7 +70,7 @@ script: |
   export OTOOL=${HOST}-otool
   export INSTALLNAMETOOL=${HOST}-install_name_tool
   export STRIP=${HOST}-strip
-  chmod +x contrib/macdeploy/macdeployqtplus
+  #chmod +x contrib/macdeploy/macdeployqtplus
   OTOOL=${HOST}-otool INSTALLNAMETOOL=${HOST}-install_name_tool STRIP=${HOST}-strip contrib/macdeploy/macdeployqtplus OraCoin-Qt.app
   mkdir -p  dist/.background
   install contrib/macdeploy/background.png dist/.background
