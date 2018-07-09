@@ -879,18 +879,31 @@ bool EvalScript(vector<vector<unsigned char> >& stack, const CScript& script, co
                         break;
 
                     case OP_MUL:
+#if OPENSSL_VERSION_NUMBER < 0x10100000
                         if (!BN_mul(&bn, &bn1, &bn2, pctx))
+#else
+	                if (!BN_mul(bn.m_bignum, bn1.m_bignum, bn2.m_bignum, pctx))
+#endif
                             return false;
                         break;
 
                     case OP_DIV:
-                        if (!BN_div(&bn, NULL, &bn1, &bn2, pctx))
+#if OPENSSL_VERSION_NUMBER < 0x10100000
+	                    if (!BN_div(&bn, NULL, &bn1, &bn2, pctx))
+#else
+	                    if (!BN_div(bn.m_bignum, NULL, bn1.m_bignum, bn2.m_bignum, pctx))
+#endif
                             return false;
                         break;
 
                     case OP_MOD:
-                        if (!BN_mod(&bn, &bn1, &bn2, pctx))
+#if OPENSSL_VERSION_NUMBER < 0x10100000
+	                    if (!BN_mod(&bn, &bn1, &bn2, pctx))    
+#else
+	                    if (!BN_mod(bn.m_bignum, bn1.m_bignum, bn2.m_bignum, pctx))
+#endif
                             return false;
+	                    
                         break;
 
                     case OP_LSHIFT:
