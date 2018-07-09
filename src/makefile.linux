@@ -1,8 +1,6 @@
 # Copyright (c) 2009-2010 Satoshi Nakamoto
 # Distributed under the MIT/X11 software license, see the accompanying
 # file COPYING or http://www.opensource.org/licenses/mit-license.php.
-BDB_INCLUDE_PATH=/root/projects/bitcoin/db-4.8.30.NC/build_unix/build/include/
-BDB_LIB_PATH=/root/projects/bitcoin/db-4.8.30.NC/build_unix/build/lib/
 USE_UPNP:=0
 USE_IPV6:=1
 
