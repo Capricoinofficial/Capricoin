@@ -685,7 +685,7 @@ void ThreadRPCServer(void* parg)
     }
     printf("ThreadRPCServer exited\n");
 }
-
+#if BOOST_VERSION < 106700
 // Forward declaration required for RPCListen
 template <typename Protocol, typename SocketAcceptorService>
 static void RPCAcceptHandler(boost::shared_ptr< basic_socket_acceptor<Protocol, SocketAcceptorService> > acceptor,
@@ -725,6 +725,47 @@ static void RPCAcceptHandler(boost::shared_ptr< basic_socket_acceptor<Protocol, 
                              const bool fUseSSL,
                              AcceptedConnection* conn,
                              const boost::system::error_code& error)
+#else
+// Forward declaration required for RPCListen
+template <typename Protocol>
+static void RPCAcceptHandler(boost::shared_ptr< basic_socket_acceptor<Protocol> > acceptor,
+                             ssl::context& context,
+                             bool fUseSSL,
+                             AcceptedConnection* conn,
+                             const boost::system::error_code& error);
+
+/**
+ * Sets up I/O resources to accept and handle a new connection.
+ */
+template <typename Protocol>
+static void RPCListen(boost::shared_ptr< basic_socket_acceptor<Protocol> > acceptor,
+                   ssl::context& context,
+                   const bool fUseSSL)
+{
+    // Accept connection
+    AcceptedConnectionImpl<Protocol>* conn = new AcceptedConnectionImpl<Protocol>(acceptor->get_io_service(), context, fUseSSL);
+
+    acceptor->async_accept(
+            conn->sslStream.lowest_layer(),
+            conn->peer,
+            boost::bind(&RPCAcceptHandler<Protocol>,
+                acceptor,
+                boost::ref(context),
+                fUseSSL,
+                conn,
+                boost::asio::placeholders::error));
+}
+
+/**
+ * Accept and handle incoming connection.
+ */
+template <typename Protocol>
+static void RPCAcceptHandler(boost::shared_ptr< basic_socket_acceptor<Protocol> > acceptor,
+                             ssl::context& context,
+                             const bool fUseSSL,
+                             AcceptedConnection* conn,
+                             const boost::system::error_code& error)
+#endif
 {
     vnThreadsRunning[THREAD_RPCLISTENER]++;
 
@@ -799,7 +840,11 @@ void ThreadRPCServer2(void* parg)
 
     asio::io_service io_service;
 
+#if BOOST_VERSION < 106700
     ssl::context context(io_service, ssl::context::sslv23);
+#else
+    ssl::context context(ssl::context::sslv23);
+#endif
     if (fUseSSL)
     {
         context.set_options(ssl::context::no_sslv2);
@@ -815,7 +860,11 @@ void ThreadRPCServer2(void* parg)
         else printf("ThreadRPCServer ERROR: missing server private key file %s\n", pathPKFile.string().c_str());
 
         string strCiphers = GetArg("-rpcsslciphers", "TLSv1+HIGH:!SSLv2:!aNULL:!eNULL:!AH:!3DES:@STRENGTH");
+#if BOOST_VERSION < 106700
         SSL_CTX_set_cipher_list(context.impl(), strCiphers.c_str());
+#else
+        SSL_CTX_set_cipher_list((SSL_CTX*)&context, strCiphers.c_str());
+#endif
     }
 
     // Try a dual IPv6/IPv4 socket, falling back to separate IPv4 and IPv6 sockets
@@ -1109,11 +1158,19 @@ Object CallRPC(const string& strMethod, const Array& params)
 
     // Connect to localhost
     bool fUseSSL = GetBoolArg("-rpcssl");
+#if BOOST_VERSION < 106700
     asio::io_service io_service;
     ssl::context context(io_service, ssl::context::sslv23);
     context.set_options(ssl::context::no_sslv2);
     asio::ssl::stream<asio::ip::tcp::socket> sslStream(io_service, context);
     SSLIOStreamDevice<asio::ip::tcp> d(sslStream, fUseSSL);
+#else
+	boost::asio::io_context io_ctx;
+	boost::asio::ssl::context ctx(boost::asio::ssl::context::sslv23);
+	boost::asio::ssl::stream<boost::asio::ip::tcp::socket> sslStream(io_ctx, ctx);
+	
+    SSLIOStreamDevice<asio::ip::tcp> d(sslStream, fUseSSL);
+#endif
     iostreams::stream< SSLIOStreamDevice<asio::ip::tcp> > stream(d);
     if (!d.connect(GetArg("-rpcconnect", "127.0.0.1"), GetArg("-rpcport", itostr(GetDefaultRPCPort()))))
         throw runtime_error("couldn't connect to server");
