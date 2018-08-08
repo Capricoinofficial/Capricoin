@@ -14,6 +14,7 @@ RUN apt-get update \
 		cmake \
 		make \
 		miniupnpc \
+		libminiupnpc-dev \
 		ninja-build \
 		libbz2-dev \
 		libdb++-dev \
