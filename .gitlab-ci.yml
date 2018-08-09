@@ -1,0 +1,33 @@
+image: ubuntu:18.04
+
+variables:
+  DOCKER_DRIVER: overlay2
+  IMAGE_TAG: $CI_REGISTRY_IMAGE:latest
+
+.build_docker_template: &build_docker_definition
+  image: docker:latest
+  stage: build
+  services:
+    - docker:dind
+  tags:
+    - docker
+
+build:
+  <<: *build_docker_definition
+  script:
+    - docker build -t $IMAGE_TAG .
+  except:
+    - master
+
+build and release:
+  <<: *build_docker_definition
+  before_script:
+    - docker login -u gitlab-ci-token -p $CI_JOB_TOKEN $CI_REGISTRY
+  script:
+    - docker build -t $IMAGE_TAG .
+    - docker push $IMAGE_TAG
+  only:
+    - master
+
+stages:
+  - build
