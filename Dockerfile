@@ -1,10 +1,5 @@
-FROM ubuntu:18.04
+FROM ubuntu:18.04 as builder
 MAINTAINER Jozef Knaperek <jozef.knaperek@01cryptohouse.com>
-
-ARG uid=1000
-ARG gid=1000
-
-RUN groupadd --gid $gid -r capricoin && useradd --uid $uid --create-home --system -g capricoin capricoin
 
 RUN apt-get update \
 	&& apt-get install -y --no-install-recommends \
@@ -58,7 +53,40 @@ ARG BUILD=Debug
 ARG REVISION_SHA=a1b2c3d4
 ARG REVISION_TIMESTAMP=1521619797
 
-
 RUN BDB_INCLUDE_PATH=/root/linux_depends/include/ BDB_LIB_PATH=/root/linux_depends/lib/ make -f makefile.linux
 
-# USER capricoin
+
+##### Runner ######
+FROM ubuntu:18.04
+RUN apt-get update \
+	&& apt-get install -y --no-install-recommends \
+		libcurl3 \
+		libboost-all-dev \
+		miniupnpc \
+    && apt-get clean \
+    && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
+
+ARG uid=1000
+ARG gid=1000
+
+RUN groupadd --gid $gid -r capricoin && useradd --uid $uid --create-home --system -g capricoin capricoin
+
+COPY --from=builder /src/src/Capricoind /usr/local/bin/
+COPY docker-entrypoint.sh /usr/local/bin/entrypoint.sh
+
+ENV CAPRICOIN_DATA=/data
+RUN mkdir "$CAPRICOIN_DATA" \
+	&& chown -R capricoin:capricoin "$CAPRICOIN_DATA" \
+	&& ln -sfn "$CAPRICOIN_DATA" /home/capricoin/.Capricoin \
+	&& chown -h capricoin:capricoin /home/capricoin/.Capricoin
+
+VOLUME /data
+
+USER capricoin
+WORKDIR /home/capricoin
+
+ENTRYPOINT ["/usr/local/bin/entrypoint.sh"]
+CMD ["/usr/local/bin/Capricoind"]
+
+EXPOSE 22714
+# RPC port is 22713
