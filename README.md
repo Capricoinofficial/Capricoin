@@ -7,7 +7,7 @@ http://www.capricoin.org
 
 https://bitcointalk.org/index.php?topic=1129322.0
 
-Copyright (c) 2015 Capricoin Developers
+Copyright (c) 2015-2018 Capricoin Developers
 
 Copyright (c) 2013-2014 NovaCoin Developers
 
