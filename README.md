@@ -3,11 +3,11 @@ Capricoin integration/staging tree
 
 Capricoin QT Wallet
 
-http://www.capricoin.org
+https://www.capricoin.org
 
 https://bitcointalk.org/index.php?topic=1129322.0
 
-Copyright (c) 2015 Capricoin Developers
+Copyright (c) 2015-2019 Capricoin Developers
 
 Copyright (c) 2013-2014 NovaCoin Developers
 
@@ -25,13 +25,13 @@ out collectively by the network. Capricoin Core is the name of open source
 software which enables the use of this currency.
 
 For more information, as well as an immediately useable, binary version of
-the Capricoin Core software, see http://www.capricoin.org/
+the Capricoin QT software, see https://www.capricoin.org/
 
 License
 -------
 
-Capricoin Core is released under the terms of the MIT license. See [COPYING](COPYING) for more
-information or see http://opensource.org/licenses/MIT.
+Capricoin QT is released under the terms of the MIT license. See [COPYING](COPYING) for more
+information or see https://opensource.org/licenses/MIT.
 
 Development process
 -------------------
