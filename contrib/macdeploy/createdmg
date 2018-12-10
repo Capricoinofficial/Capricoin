@@ -1,7 +1,7 @@
 #!/bin/bash
 set -e
 
-OTOOL=${HOST}-otool INSTALLNAMETOOL=${HOST}-install_name_tool STRIP=${HOST}-strip contrib/macdeploy/macdeployqtplus OraCoin-Qt.app
+OTOOL=${HOST}-otool INSTALLNAMETOOL=${HOST}-install_name_tool STRIP=${HOST}-strip contrib/macdeploy/macdeployqtplus Capricoin-Qt.app
 mkdir -p dist/.background
 install contrib/macdeploy/background.png dist/.background
 install contrib/macdeploy/DS_Store dist/.DS_Store
