@@ -1,13 +1,15 @@
 Capricoin integration/staging tree
 =================================
 
-Capricoin QT Wallet
+Capricoin QT Wallet Forked from BlackCoin reference wallet 1.0.6 on 25 april 2014
 
 https://www.capricoin.org
 
 https://bitcointalk.org/index.php?topic=1129322.0
 
 Copyright (c) 2015-2019 Capricoin Developers
+
+Copyright (c) 2014 BlackCoin Developers
 
 Copyright (c) 2013-2014 NovaCoin Developers
 
