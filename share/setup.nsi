@@ -1,11 +1,11 @@
-Name NovaCoin
+Name Capricoin
 
 RequestExecutionLevel highest
 SetCompressor /SOLID lzma
 
 # General Symbol Definitions
 !define REGKEY "SOFTWARE\$(^Name)"
-!define VERSION 0.4.4
+!define VERSION 1.2.0.0
 !define COMPANY "Capricoin project"
 !define URL http://www.capricoin.org/
 
@@ -19,7 +19,7 @@ SetCompressor /SOLID lzma
 !define MUI_STARTMENUPAGE_REGISTRY_ROOT HKLM
 !define MUI_STARTMENUPAGE_REGISTRY_KEY ${REGKEY}
 !define MUI_STARTMENUPAGE_REGISTRY_VALUENAME StartMenuGroup
-!define MUI_STARTMENUPAGE_DEFAULTFOLDER NovaCoin
+!define MUI_STARTMENUPAGE_DEFAULTFOLDER Capricoin
 #!define MUI_FINISHPAGE_RUN $INSTDIR\capricoin-qt.exe
 !define MUI_UNICON "${NSISDIR}\Contrib\Graphics\Icons\modern-uninstall.ico"
 !define MUI_UNWELCOMEFINISHPAGE_BITMAP "../share/pixmaps/nsis-wizard.bmp"
@@ -45,7 +45,7 @@ Var StartMenuGroup
 !insertmacro MUI_LANGUAGE English
 
 # Installer attributes
-OutFile capricoin-0.4.4-win32-setup.exe
+OutFile capricoin-1.2.0.0-win32-setup.exe
 InstallDir $PROGRAMFILES\Capricoin
 CRCCheck on
 XPStyle on
